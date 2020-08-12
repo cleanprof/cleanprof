@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/af801e5531.js" crossorigin="anonymous"></script>
+  
+
+  <title>Cleanprof prototype</title>
+</head>
+<body class="bg-white-green">
+  <section class="h-screen bg-cover" style="background-image: url(../resources/sanitizer-sample.jpg);">
+    <nav class="flex items-center justify-between flex-wrap bg-0 p-6">
+      <div class="flex items-center flex-shrink-0 text-orange-bright mr-6">
+        <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+        <span class="font-semibold text-xl tracking-tight">Cleanprof</span>
+      </div>
+      <div class="block lg:hidden">
+        <button class="navburger flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+        </button>
+      </div>
+      <div class="navmenu w-full flex-grow hidden lg:flex lg:visible lg:items-center lg:w-auto">
+        <div class="text-base text-white-green lg:flex-grow">
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-bright mr-4">
+            Shop
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-bright mr-4">
+            Our Story
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-bright mr-4">
+            Ingredients
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-bright mr-4">
+            Retailers
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-bright">
+            Contact Us
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/vandercoder" class="inline-block text-sm px-4 py-2 leading-none border rounded bg-orange-bright text-white-green border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Shop</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="px-10 my-10 mx-4 text-left font-mono text-white-green sm:my-24 sm:mx-24">
+      <p class="text-5xl sm:text-6xl font-bold">Special Offers</p>
+      <p class="text-5xl sm:text-6xl font-bold">Up To</p>
+      <p class="text-5xl sm:text-6xl">50%</p>
+      <a class="inline-block rounded-full py-2 px-4 leading-none bg-orange-bright border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">SHOP NOW!</a>
+      <p class="text-xl">Find us on
+        <a class="fa fa-instagram" href="https://www.instagram.com/dnielstv/"></a>
+        <a class="fab fa-facebook-square" href="https://www.facebook.com/daniel.s.setiadi.9"></a>
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="flex justify-center text-xl font-bold sm:text-base my-6 mx-auto px-4">
+      <p>Featured Product</p>
+    </div>
+
+    <div id="project-cards">
+
+    </div>
+    <template id="card-template">
+      <div class="card-main flex py-2 px-10 mb-6">
+        <div class="max-w-sm mx-auto rounded overflow-hidden shadow-lg bg-gray-100">
+          <img class="w-full shadow-sm" alt="Sunset in the mountains">
+          
+          <div class="px-6 py-4">
+            <div class="card-title text-base text-gray-700 mb-2"></div>
+            <p class="card-content text-gray-700 text-base">
+              
+            </p>
+          </div>
+          <div class="px-6 py-4">
+            <p class="price text-green-600 mr-2">IDR 70,0000</p>
+          </div>
+        </div>
+      </div>
+    </template>      
+        
+  </section>
+
+  <section id="contact-me">
+    <div class="flex items-end h-32 rounded-tl-footer-tl rounded-tr-footer-tr font-mono text-sm text-white-green bg-orange-bright">
+      <div class="w-1/2 px-10"><p class="inset-x-0.bottom-0">Cleanprof</p></div>
+      <div class="w-1/2 px-10">Cleanprof</div>
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="content.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
