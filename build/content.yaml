@@ -1,0 +1,59 @@
+rubyOnRails :
+  
+  - image_url    : "/resources/rails-twitter/Homepage.png"
+    image_alt    : "Twitterr"
+    card_title   : "Twitterr on Rails"
+    card_content : "Made a website that imitates the core functionalities of Twitter. Users can login and post tweets that will appear in the timeline."
+    github_url   : "https://github.com/vandercoder/micro-twitter"
+    live_url     : "https://shrouded-temple-93524.herokuapp.com"
+  
+  - image_url    : "/resources/rails-eventmaster/Home.png"
+    image_alt    : "Event Master"
+    card_title   : "Event Master"
+    card_content : "Website mock-up based on Event Brite. Users can login and post events online. They can also invite other users and join available events.",
+    github_url   : "https://github.com/vandercoder/event-master"
+    live_url     : "https://cryptic-stream-58688.herokuapp.com"
+
+  - image_url    : "/resources/rails-flight_booker/Home.png"
+    image_alt    : "Flight Booker"
+    card_title   : "Flight Booker"
+    card_content : "Flight booking prototype website. User is able to search available flights and book them. Still ongoing project.."
+    github_url   : ""
+    live_url     : ""
+
+
+django :
+  
+  - image_url    : "/resources/django-kelasku/Home.png"
+    image_alt    : "Kelasku"
+    card_title   : "Kelasku"
+    card_content : "Course Review website. Students can login and give review to courses they have been to. Students can see reviews of other courses to decide which ones are better to take."
+    github_url   : "https://github.com/vandercoder/kelasku"
+    live_url     : "https://fast-beach-26927.herokuapp.com"
+  
+
+javascript :
+  
+  - image_url    : "/resources/javascript-calculator/Home.png",
+    image_alt    : "Calculator",
+    card_title   : "Calculator",
+    card_content : "Exercise project on performing basic math operations using javascript. Also an exercise for implementing event-listeners",
+    github_url   : "https://github.com/vandercoder/calculator",
+    live_url     : "https://vandercoder.github.io/calculator/"
+  
+
+  - image_url    : "/resources/javascript-cashier_program/Home.png",
+    image_alt    : "Cashier Program",
+    card_title   : "Cashier Program",
+    card_content : "A step-up from the calculator project. Cashier counting webpage, add in available products and count their sum. ",
+    github_url   : "https://github.com/vandercoder/cashier-program",
+    live_url     : "https://vandercoder.github.io/cashier-program/"
+  
+  
+  - image_url    : "/resources/javascript-sketch_pad/sketch-pad.png",
+    image_alt    : "Sketch Pad",
+    card_title   : "Sketch Pad",
+    card_content : "Another exercise on event listeners. A simple sketching pad using your mouse as the pen. Can also modify the number of grid boxes for sketching.",
+    github_url   : "https://github.com/vandercoder/sketch-pad",
+    live_url     : "https://vandercoder.github.io/sketch-pad/"
+  
