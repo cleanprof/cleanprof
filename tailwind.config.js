@@ -8,9 +8,9 @@ module.exports = {
         'white-green': '#FFFEF1',
       },
       borderRadius: {
+        'body-info': '50px',
         'footer-tl': '100% 120%',
         'footer-tr': '40% 85%',
-  
       }
     },
     
