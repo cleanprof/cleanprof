@@ -10,45 +10,48 @@
   <title>Cleanprof prototype</title>
 </head>
 <body>
-  <section class="static h-screen bg-cover" style="background-image: url(../resources/home-sanitizer.jpg); box-shadow:inset 0 0 0 2000px rgba(3, 3, 3, 0.3);">
+  <section class="static bg-center bg-cover min-h-4/5screen lg:h-screen" style="background-image: url(../resources/home-sanitizer.jpg); box-shadow:inset 0 0 0 2000px rgba(3, 3, 3, 0.3);">
     <nav class="flex items-center justify-between flex-wrap bg-0 p-6">
-      <div class="flex items-center flex-shrink-0 text-orange-bright lg:mx-10">
-        <img src="../resources/logo-cleanprof.png" class="fill-current h-20"></img>
+      <div class="flex items-center flex-shrink-0 lg:px-10">
+        <img src="../resources/logo-cleanprof.png" class="max-w-full h-16 sm:h-20"></img>
         <!-- <span class="font-semibold text-xl tracking-tight">Cleanprof</span> -->
       </div>
       <div class="block lg:hidden">
-        <button class="navburger flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+        <button id="navburger" class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white">
           <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
         </button>
       </div>
-      <div class="navmenu w-full flex-grow hidden lg:flex lg:visible lg:items-center lg:w-auto">
-        <div class="text-base text-white-green lg:flex-grow">
-          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-bright mr-4">
+      <div id="navmenu" class="fixed overflow-x-hidden h-screen w-0 top-0 right-0 pt-24 align-middle bg-orange-bright lg:top-auto lg:right-auto lg:flex">
+        <div class="text-lg text-white-green font-semibold lg:flex-grow">
+          <a id="navclose" href="#responsive-header" class="absolute top-0 right-0 p-10 lg:hidden">
+            X
+          </a>
+          <a href="#responsive-header" class="block ml-4 mt-4 lg:inline-block lg:mt-0 hover:text-black mr-4">
             Shop
           </a>
-          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-bright mr-4">
+          <a href="#responsive-header" class="block ml-4 mt-4 lg:inline-block lg:mt-0 hover:text-black mr-4">
             Our Story
           </a>
-          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-bright mr-4">
+          <a href="#responsive-header" class="block ml-4 mt-4 lg:inline-block lg:mt-0 hover:text-black mr-4">
             Ingredients
           </a>
-          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-bright mr-4">
+          <a href="#responsive-header" class="block ml-4 mt-4 lg:inline-block lg:mt-0 hover:text-black mr-4">
             Retailers
           </a>
-          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-bright">
+          <a href="#responsive-header" class="block ml-4 mt-4 lg:inline-block lg:mt-0 hover:text-black">
             Contact Us
           </a>
         </div>
         <div>
-          <a href="https://github.com/vandercoder" class="inline-block text-sm px-4 py-2 leading-none border rounded bg-orange-bright text-white-green border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Shop</a>
+          <a href="https://github.com/vandercoder" class="inline-block text-sm px-4 py-2 leading-none border rounded bg-orange-bright text-white-green border-white hover:border-transparent hover:text-teal-500 hover:bg-white ml-4 mt-4 lg:mt-0">Shop</a>
         </div>
       </div>
     </nav>
 
-    <div class="px-10 my-10 text-left font-mono text-white-green sm:my-24 sm:mx-24">
-      <p class="text-5xl sm:text-6xl font-bold">Special Offers</p>
-      <p class="text-5xl sm:text-6xl font-bold">Up To</p>
-      <p class="text-5xl sm:text-6xl">50%</p>
+    <div class="px-6 pb-7/100 text-left font-mono text-white-green lg:my-24 lg:mx-24">
+      <p class="text-4xl sm:text-6xl font-bold">Special Offers</p>
+      <p class="text-4xl sm:text-6xl font-bold">Up To</p>
+      <p class="text-4xl sm:text-6xl">50%</p>
       <a class="inline-block rounded-full py-2 px-4 leading-none bg-orange-bright border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">SHOP NOW!</a>
       <p class="text-xl mt-4">Find us on
         <a class="fa fa-instagram" href="https://www.instagram.com/dnielstv/"></a>
@@ -56,19 +59,24 @@
       </p>
     </div>
 
-    <div class=" flex items-center justify-center rounded-body-info bg-orange-bright text-white w-4/5 h-40 mx-auto px-10">
+    <!-- <div class="flex inset-x-0 bottom-0 items-center rounded-mobile-info sm:rounded-desktop-info bg-orange-bright text-white w-4/5 h-24 sm:h-40 mx-auto px-10">
       <p>Protection Towards Bacteria & Viruses</p>
-    </div>
+    </div> -->
   </section>
 
+  <!-- <section class="bg-orange-bright h-56">
+
+  </section> -->
+
+
   <section class="static mt-24 mb-20">
-    <div class="flex justify-center text-xl font-bold sm:text-base mx-auto px-4">
-      <p>Featured Product</p>
-    </div>
+    <p class="font-bold text-center text-2xl mb-4 sm:text-left sm:text-4xl sm:ml-12 px-4">
+      Featured Products
+    </p>
 
     <div id="project-cards">
       <div class="container mx-auto md:flex md:justify-center"> 
-        <div class="card-main flex py-2 px-10 mb-6" v-for="product in products" :key="product.id">
+        <div class="card-main py-2 px-10 mb-6" v-for="product in products" :key="product.id">
           <div class="max-w-sm mx-auto rounded overflow-hidden shadow-lg bg-gray-100">
             <img class="w-full shadow-sm" v-bind:src="product.image" v-bind:alt="product.imageAlt">
             <div class="px-6 py-2">
@@ -77,8 +85,12 @@
                 {{ product.spec }}
               </p>
             </div>
-            <div class="px-6 py-2">
-              <p class="price text-green-600 mr-2">{{ product.price }}</p>
+            <div class="px-6 py-2" v-if="product.discountPrice">
+              <p class="price line-through text-gray-600 text-xs mr-2">IDR {{ product.price }}</p>
+              <p class="price text-green-600 mr-2">IDR {{ product.discountPrice }}</p>
+            </div>
+            <div class="px-6 py-2" v-else>
+              <p class="price text-green-600 mr-2">IDR {{ product.price }}</p>
             </div>
           </div>
         </div>
@@ -95,7 +107,6 @@
     </div>
   </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
-  <script src="content.js"></script>
   <script src="index.js"></script>
 </body>
 </html>
