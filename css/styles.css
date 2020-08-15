@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
+
+.mobile-sidebar {
+  @apply fixed overflow-x-hidden h-screen w-0 top-0 right-0 pt-24 bg-orange-bright rounded-l-2rem;
+}
+
+@screen lg {
+  .desktop-navbar {
+    @apply flex static overflow-visible h-auto w-auto top-auto right-auto items-center pt-0 bg-transparent rounded-none;
+  }
+}
+
 @tailwind utilities;

@@ -20,9 +20,12 @@ module.exports = {
         'green-grass': '#679966',
         'white-green': '#FFFEF1',
       },
+      transitionProperty: {
+        'width': 'width'
+      },
       borderRadius: {
-        'desktop-info': '3rem',
-        'mobile-info': '2rem',
+        '3rem': '3rem',
+        '2rem': '2rem',
         'footer-tl': '100% 120%',
         'footer-tr': '40% 85%',
       }
