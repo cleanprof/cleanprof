@@ -1,11 +1,23 @@
+let htmlElement = document.querySelector('html');
+let bodyElement = document.querySelector('body');
+let overlayElement = document.querySelector('.overlay-black');
+
 document.getElementById("navburger").addEventListener("click", function(){
+  htmlElement.style.overflow = 'hidden';
+  bodyElement.style.overflow = 'hidden';
+  overlayElement.style.display = 'block';
+  overlayElement.style.opacity = 0.5;
+
   document.getElementById("navmenu").style.width = "75%";
 });
 
 document.getElementById("navclose").addEventListener("click", function(){
   document.getElementById("navmenu").style.width = "0";
+  htmlElement.style.overflow = '';
+  bodyElement.style.overflow = '';
+  overlayElement.style.opacity = 0;
+  overlayElement.style.display = 'hidden';
 });
-
 
 var projectCards = new Vue({
   el: '#project-cards',
