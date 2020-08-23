@@ -1,14 +1,15 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
-@keyframes fade_in_show {
-  0% {
-       opacity: 0;
-       transform: scale(0)
-  }
-  100% {
-       opacity: 1;
-       transform: scale(1)
-  }
+#overlay {
+  background: black;
+  overflow: hidden; 
+  height: 0; opacity: 0;
+  transition: height 0ms 400ms, opacity 400ms 0ms;
+}
+
+#overlay.visible {
+  height: 100%; opacity: 0.5;
+  transition: height 0ms 0ms, opacity 600ms 0ms;
 }
 
 /* Document
