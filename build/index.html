@@ -67,17 +67,17 @@
     </div> -->
   </section>
 
-  <section class="static mt-24 mb-20">
+  <section class="static bg-white py-20 -mt-8 rounded-2rem md:mt-0 md:rounded-none">
     <p class="font-bold text-center text-2xl mb-4 sm:text-left sm:text-4xl sm:ml-12 px-4">
       Featured Products
     </p>
 
     <div id="project-cards">
-      <div class="h-auto grid grid-cols-2 md:gap-2 md:px-6 md:grid-cols-5">
-        <div class="card-main p-2 md:px-10 md:mb-6" v-for="product in products" :key="product.id">
+      <div class="h-auto grid grid-cols-2 md:gap-2 md:px-2 lg:px-16 md:grid-cols-5">
+        <div class="card-main p-2 md:px-4 md:mb-6" v-for="product in products" :key="product.id">
           <div class="relative max-w-auto mx-auto rounded shadow-lg bg-gray-100">
-            <img class="w-full shadow-sm rounded-lg" v-bind:src="product.image" v-bind:alt="product.imageAlt">
-            <div class="px-6 py-2 text-gray-700 text-sm text-center md:text-base md:text-left">
+            <img class="w-full shadow-sm rounded-lg text-sm text-center lg:text-base md:text-left" v-bind:src="product.image" v-bind:alt="product.imageAlt">
+            <div class="px-6 py-2 text-gray-700">
               <div class="card-title mb-2"> {{ product.name }} </div>
               <p class="card-content">
                 {{ product.spec }}
@@ -127,7 +127,7 @@
       </div>
     </div>
   </section>
-  
+
   <div id="overlay" class="fixed h-0 opacity-0 left-0 right-0 bottom-0 z-10 bg-black"></div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
