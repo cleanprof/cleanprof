@@ -5,8 +5,8 @@
   @apply fixed overflow-x-hidden h-screen w-0 top-0 right-0 pt-24 bg-orange-bright rounded-l-2rem z-20;
 }
 
-.overlay-black {
-  @apply fixed hidden w-full h-full left-0 right-0 bottom-0 bg-black opacity-0 z-10;
+.navlink {
+  @apply block ml-4 mt-4 mr-4;
 }
 
 @screen lg {

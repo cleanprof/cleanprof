@@ -13,18 +13,19 @@ function enableScroll() {
 }
 
 document.getElementById("navburger").addEventListener("click", function(){
-  // disableScroll();
+  disableScroll();
   overlayElement.classList.add("visible");
 
   document.getElementById("navmenu").style.width = "60%";
 });
 
 document.getElementById("navclose").addEventListener("click", function(){
-  // enableScroll();
+  enableScroll();
   overlayElement.classList.remove("visible");
 
   document.getElementById("navmenu").style.width = "0";
 });
+
 
 var projectCards = new Vue({
   el: '#project-cards',
@@ -50,7 +51,8 @@ var projectCards = new Vue({
         discountPrice : "50,000",
         link : "https://www.tokopedia.com/",
       },
-      { id : 3, 
+      { 
+        id : 3, 
         image : "../resources/product-display.png",
         imageAlt : "Hand Sanitizer",
         name : "Hand Sanitizer",
@@ -59,7 +61,8 @@ var projectCards = new Vue({
         discountPrice : "",
         link : "https://www.tokopedia.com/",
       },
-      { id : 4,
+      { 
+        id : 4,
         image : "../resources/product-display.png",
         imageAlt : "Hand Sanitizer",
         name : "Hand Sanitizer",
@@ -68,7 +71,8 @@ var projectCards = new Vue({
         discountPrice : "",
         link : "https://www.tokopedia.com/",
       },
-      { id : 5,
+      { 
+        id : 5,
         image : "../resources/product-display.png",
         imageAlt : "Hand Sanitizer",
         name : "Hand Sanitizer",
