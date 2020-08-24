@@ -2,7 +2,7 @@
 # Cleanprof Website
 
 This is the documentation of the Cleanprof website project. 
-This website is live at **tbd.**
+This website is live in [here](https://vandercoder.github.io/cleanprof/)
 
 ### How to Run
 1. Clone/Download this repository
