@@ -33,7 +33,7 @@ var projectCards = new Vue({
     products : [
       {
         id : 1,
-        image : "../resources/product-display.png",
+        image : "./resources/product-display.png",
         imageAlt : "Hand Sanitizer",
         name : "Hand Sanitizer",
         spec : "60 mL",
@@ -43,7 +43,7 @@ var projectCards = new Vue({
       },
       {
         id : 2,
-        image : "../resources/product-display.png",
+        image : "./resources/product-display.png",
         imageAlt : "Hand Sanitizer",
         name : "Hand Sanitizer",
         spec : "60 mL",
@@ -53,7 +53,7 @@ var projectCards = new Vue({
       },
       { 
         id : 3, 
-        image : "../resources/product-display.png",
+        image : "./resources/product-display.png",
         imageAlt : "Hand Sanitizer",
         name : "Hand Sanitizer",
         spec : "100 mL",
@@ -63,7 +63,7 @@ var projectCards = new Vue({
       },
       { 
         id : 4,
-        image : "../resources/product-display.png",
+        image : "./resources/product-display.png",
         imageAlt : "Hand Sanitizer",
         name : "Hand Sanitizer",
         spec : "100 mL",
@@ -73,7 +73,7 @@ var projectCards = new Vue({
       },
       { 
         id : 5,
-        image : "../resources/product-display.png",
+        image : "./resources/product-display.png",
         imageAlt : "Hand Sanitizer",
         name : "Hand Sanitizer",
         spec : "100 mL",
@@ -83,7 +83,7 @@ var projectCards = new Vue({
       },
       {
         id : 6,
-        image : "../resources/product-display.png",
+        image : "./resources/product-display.png",
         imageAlt : "Hand Sanitizer",
         name : "Hand Sanitizer",
         spec : "60 mL",
@@ -93,7 +93,7 @@ var projectCards = new Vue({
       },
       {
         id : 7,
-        image : "../resources/product-display.png",
+        image : "./resources/product-display.png",
         imageAlt : "Hand Sanitizer",
         name : "Hand Sanitizer",
         spec : "60 mL",
@@ -103,7 +103,7 @@ var projectCards = new Vue({
       },
       { 
         id : 8, 
-        image : "../resources/product-display.png",
+        image : "./resources/product-display.png",
         imageAlt : "Hand Sanitizer",
         name : "Hand Sanitizer",
         spec : "100 mL",
@@ -113,7 +113,7 @@ var projectCards = new Vue({
       },
       { 
         id : 9,
-        image : "../resources/product-display.png",
+        image : "./resources/product-display.png",
         imageAlt : "Hand Sanitizer",
         name : "Hand Sanitizer",
         spec : "100 mL",
@@ -123,7 +123,7 @@ var projectCards = new Vue({
       },
       { 
         id : 10,
-        image : "../resources/product-display.png",
+        image : "./resources/product-display.png",
         imageAlt : "Hand Sanitizer",
         name : "Hand Sanitizer",
         spec : "100 mL",

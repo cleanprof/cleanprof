@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
   <link rel="stylesheet" href="styles.css">
   <script src="https://kit.fontawesome.com/af801e5531.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -10,10 +11,10 @@
   <title>Cleanprof prototype</title>
 </head>
 <body>
-  <section class="static bg-center bg-cover min-h-4/5screen lg:h-screen" style="background-image: url(../resources/home-sanitizer.jpg); box-shadow:inset 0 0 0 2000px rgba(3, 3, 3, 0.3);">
+  <section class="static bg-center bg-cover min-h-4/5screen lg:h-screen" style="background-image: url(./resources/home-sanitizer.jpg); box-shadow:inset 0 0 0 2000px rgba(3, 3, 3, 0.3);">
     <nav class="flex items-center justify-between flex-wrap bg-0 p-6">
       <div class="flex items-center flex-shrink-0 lg:px-10">
-        <img src="../resources/logo-cleanprof.png" class="max-w-full h-16 sm:h-20"></img>
+        <img src="./resources/logo-cleanprof.png" class="max-w-full h-16 sm:h-20"></img>
       </div>
       <div class="block lg:hidden">
         <button id="navburger" class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white">
@@ -91,11 +92,11 @@
               <p class="price text-green-600 mr-2">IDR {{ product.price }}</p>
             </div>
 
-            <div v-if="product.discountPrice" class="flex absolute top-0 right-0 -mt-0.5 -mr-1">
+            <div v-if="product.discountPrice" class="flex absolute top-0 right-0 -mt-0.5 -mr-2">
               <span class="absolute inline-flex animate-ping">
-                <span class="inline-flex rounded-full h-3 w-3 bg-pink-400 opacity-75"></span>
+                <span class="inline-flex rounded-full h-4 w-4 bg-orange-500 opacity-75"></span>
               </span>
-              <span class="relative inline-flex rounded-full h-3 w-3 bg-pink-500"></span>
+              <span class="relative inline-flex rounded-full h-4 w-4 bg-orange-bright"></span>
             </div>
           </div>
         </div>
@@ -117,7 +118,7 @@
       </div>
       <div class="w-1/3 md:w-1/6">
         <div class="flex items-center flex-shrink-0 pb-4">
-          <img src="../resources/logo-cleanprof-putih.png" class="max-w-full h-16 sm:h-20"></img>
+          <img src="./resources/logo-cleanprof-putih.png" class="max-w-full h-16 sm:h-20"></img>
         </div>
         <div class="md:text-lg">
           <a class="fa fa-instagram bg-green-grass p-1 rounded-full" href="https://www.instagram.com/dnielstv/"></a>
