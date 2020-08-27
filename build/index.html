@@ -62,13 +62,12 @@
         <a class="fab fa-facebook-square" href="https://www.facebook.com/daniel.s.setiadi.9"></a>
       </p>
     </div>
-
-    <!-- <div class="flex inset-x-0 bottom-0 items-center rounded-2rem sm:rounded-3rem bg-orange-bright text-white w-4/5 h-24 sm:h-40 mx-auto px-10">
-      <p>Protection Towards Bacteria & Viruses</p>
-    </div> -->
   </section>
 
-  <section class="static bg-white py-20 -mt-8 rounded-2rem md:mt-0 md:rounded-none">
+  <section class="relative bg-white py-24 -mt-10 rounded-2rem md:mt-0 md:rounded-none">
+    <div class="absolute flex justify-center inset-x-0 top-0 -mt-8">
+      <img src="./resources/tengah-mobile.svg"></img>
+    </div>
     <p class="font-bold text-center text-2xl mb-4 sm:text-left sm:text-4xl sm:ml-12 px-4">
       Featured Products
     </p>
@@ -92,7 +91,7 @@
               <p class="price text-green-600 mr-2">IDR {{ product.price }}</p>
             </div>
 
-            <div v-if="product.discountPrice" class="flex absolute top-0 right-0 -mt-0.5 -mr-2">
+            <div v-if="product.discountPrice" class="flex absolute top-0 right-0 ">
               <span class="absolute inline-flex animate-ping">
                 <span class="inline-flex rounded-full h-4 w-4 bg-orange-500 opacity-75"></span>
               </span>
