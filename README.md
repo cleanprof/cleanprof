@@ -2,7 +2,7 @@
 # Cleanprof Website
 
 This is the documentation of the Cleanprof website project. 
-This website is live in [here](https://vandercoder.github.io/cleanprof/)
+This website is currently live in [here](https://vandercoder.github.io/cleanprof/)
 
 ### How to Run
 1. Clone/Download this repository
@@ -25,6 +25,8 @@ Custom CSS components were added in the css/styles.css file.
 The build/styles.css file is compiled from the css/styles.css file by running 
 ```npm run build``` 
 
+#### Fonts
 ```
-This is website was made by Andika William
+Titles: Univers Std LT
+Body: Omnes Regular
 ```
