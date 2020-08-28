@@ -2,6 +2,11 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      fontFamily: {
+        // 'sans': ['Omnes Regular', 'Helvetica', 'Arial', 'sans-serif']
+        'omnes' : ['Omnes Regular'],
+        'univers' : ['Univers LT Std 55 Roman'],
+      },
       spacing: {
         '5/100': '5%',
         '7/100': '7%',

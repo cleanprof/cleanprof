@@ -1,6 +1,62 @@
 @tailwind base;
 @tailwind components;
 
+/* Dark Overlay Fade */
+#overlay {
+  height: 0; opacity: 0;
+  transition: height 0ms 400ms, opacity 400ms 0ms;
+}
+
+#overlay.visible {
+  height: 100%; opacity: 0.5;
+  transition: height 0ms 0ms, opacity 600ms 0ms;
+}
+
+/* Underline Hover */
+.navlink {    
+  position: relative;
+  padding: 2px 5px;
+}
+
+.navlink:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: #FCB01C;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.navlink:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+@media only screen and (max-width: 600px) {
+  .navlink:hover:after {
+    background-color: #fff;
+  }
+}
+
+
+@font-face {
+  font-family: 'Omnes Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Omnes Regular'), url('./fonts/omnes-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Univers LT Std 55 Roman';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Std 55 Roman'), url('./fonts/UniversLTStd.woff') format('woff');
+  }
+  
+
 .mobile-sidebar {
   @apply fixed overflow-x-hidden h-screen w-0 top-0 right-0 pt-24 bg-orange-bright rounded-l-2rem z-20;
 }

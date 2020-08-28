@@ -1,46 +1,5 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
-/* Dark Overlay Fade */
-#overlay {
-  height: 0; opacity: 0;
-  transition: height 0ms 400ms, opacity 400ms 0ms;
-}
-
-#overlay.visible {
-  height: 100%; opacity: 0.5;
-  transition: height 0ms 0ms, opacity 600ms 0ms;
-}
-
-/* Underline Hover */
-.navlink {    
-  position: relative;
-  padding: 2px 5px;
-}
-
-.navlink:after {    
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 3px;
-  left: 50%;
-  position: absolute;
-  background: #FCB01C;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-.navlink:hover:after { 
-  width: 100%; 
-  left: 0; 
-}
-
-@media only screen and (max-width: 600px) {
-  .navlink:hover:after {
-    background-color: #fff;
-  }
-}
-
-
 /* Document
    ========================================================================== */
 
@@ -644,6 +603,69 @@ video {
   .container {
     max-width: 1280px;
   }
+}
+
+/* Dark Overlay Fade */
+
+#overlay {
+  height: 0; opacity: 0;
+  transition: height 0ms 400ms, opacity 400ms 0ms;
+}
+
+#overlay.visible {
+  height: 100%; opacity: 0.5;
+  transition: height 0ms 0ms, opacity 600ms 0ms;
+}
+
+/* Underline Hover */
+
+.navlink {
+  position: relative;
+  padding: 2px 5px;
+}
+
+.navlink:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: #FCB01C;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.navlink:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .navlink:hover:after {
+    background-color: #fff;
+  }
+}
+
+@font-face {
+  font-family: 'Omnes Regular';
+
+  font-style: normal;
+
+  font-weight: normal;
+
+  src: local('Omnes Regular'), url('./fonts/omnes-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Univers LT Std 55 Roman';
+
+  font-style: normal;
+
+  font-weight: normal;
+
+  src: local('Univers LT Std 55 Roman'), url('./fonts/UniversLTStd.woff') format('woff');
 }
 
 .mobile-sidebar {
@@ -10679,6 +10701,14 @@ video {
 
 .font-mono {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-omnes {
+  font-family: Omnes Regular;
+}
+
+.font-univers {
+  font-family: Univers LT Std 55 Roman;
 }
 
 .font-hairline {
@@ -30247,6 +30277,14 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-omnes {
+    font-family: Omnes Regular;
+  }
+
+  .sm\:font-univers {
+    font-family: Univers LT Std 55 Roman;
+  }
+
   .sm\:font-hairline {
     font-weight: 100;
   }
@@ -49769,6 +49807,14 @@ video {
 
   .md\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-omnes {
+    font-family: Omnes Regular;
+  }
+
+  .md\:font-univers {
+    font-family: Univers LT Std 55 Roman;
   }
 
   .md\:font-hairline {
@@ -69295,6 +69341,14 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-omnes {
+    font-family: Omnes Regular;
+  }
+
+  .lg\:font-univers {
+    font-family: Univers LT Std 55 Roman;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -88817,6 +88871,14 @@ video {
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-omnes {
+    font-family: Omnes Regular;
+  }
+
+  .xl\:font-univers {
+    font-family: Univers LT Std 55 Roman;
   }
 
   .xl\:font-hairline {
