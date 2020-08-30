@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,7 +43,7 @@
           </a>
         </div>
         <div>
-          <a href="https://github.com/vandercoder" class="inline-block text-sm px-4 py-2 leading-none border rounded bg-orange-bright text-white-green border-white hover:border-transparent hover:text-teal-500 hover:bg-white ml-4 mt-4 lg:mt-0">
+          <a href="http://www.tokopedia.com/cleanprofid" class="inline-block text-sm px-4 py-2 leading-none border rounded bg-orange-bright text-white-green border-white hover:border-transparent hover:text-teal-500 hover:bg-white ml-4 mt-4 lg:mt-0">
             Shop
           </a>
         </div>
@@ -54,17 +54,17 @@
       <p class="text-4xl md:text-6xl font-bold">Special Offers</p>
       <p class="text-4xl md:text-6xl font-bold">Up To</p>
       <p class="text-4xl md:text-6xl">50%</p>
-      <a class="inline-block rounded-full py-2 px-4 leading-none bg-orange-bright border-white hover:border-transparent hover:text-orange-bright hover:bg-white mt-4 lg:mt-0">
+      <a href="#products" class="inline-block rounded-full py-2 px-4 leading-none bg-orange-bright border-white hover:border-transparent hover:text-orange-bright hover:bg-white mt-4 lg:mt-0">
         SHOP NOW!          
       </a>
       <p class="font-omnes text-lg md:text-xl mt-4">Find us on
-        <a class="fa fa-instagram" href="https://www.instagram.com/dnielstv/"></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cleanprof.id/" class="fa fa-instagram"></a>
         <a class="fab fa-facebook-square" href="https://www.facebook.com/daniel.s.setiadi.9"></a>
       </p>
     </div>
   </section>
 
-  <section class="relative bg-white py-24 -mt-10 rounded-2rem md:mt-0 md:rounded-none">
+  <section id="products" class="relative bg-white py-24 -mt-10 rounded-2rem md:mt-0 md:rounded-none">
     <div class="absolute flex justify-center inset-x-0 top-0 -mt-10">
       <div class="hidden sm:flex sm:items-start w-3/5 h-auto">
         <img src="./resources/tengah-desktop.png"></img>
@@ -80,7 +80,7 @@
 
     <div id="project-cards">
       <div class="font-omnes h-auto grid grid-cols-2 md:gap-2 md:px-2 lg:px-16 md:grid-cols-5">
-        <div class="card-main p-2 md:px-4 md:mb-6" v-for="product in products" :key="product.id">
+        <a target="_blank" rel="noopener noreferrer" v-bind:href="product.link" class="card-main p-2 md:px-4 md:mb-6" v-for="product in products" :key="product.id">
           <div class="relative max-w-auto mx-auto">
             <img class="w-full shadow-sm rounded-lg text-sm text-center lg:text-base md:text-left" v-bind:src="product.image" v-bind:alt="product.imageAlt">
             <div class="px-6 py-2 text-gray-700">
@@ -107,7 +107,7 @@
               </span>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>      
   </section>
@@ -135,9 +135,11 @@
       <div class="sm:w-1/4 mt-4 h-full">
         <p class="font-univers my-2 text-lg font-bold">Socials</p>
         <div class="font-omnes md:text-lg">
-          <a class="fa fa-instagram bg-green-grass p-1 rounded-full" href="https://www.instagram.com/dnielstv/"></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cleanprof.id/" class="fa fa-instagram bg-green-grass p-1 rounded-full" href="https://www.instagram.com/dnielstv/"></a>
           <a class="fab fa-facebook-square bg-green-grass p-1 rounded-full" href="https://www.facebook.com/daniel.s.setiadi.9"></a>
-          <a class="bg-green-grass rounded-full p-1">tokopedia</a>
+          <a target="_blank" rel="noopener noreferrer" href="http://www.tokopedia.com/cleanprofid" class="bg-green-grass rounded-full p-1">
+            tokopedia
+          </a>
         </div>
       </div>      
     </div>
