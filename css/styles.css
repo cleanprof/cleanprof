@@ -55,6 +55,10 @@
   font-weight: normal;
   src: local('Univers LT Std 55 Roman'), url('./fonts/UniversLTStd.woff') format('woff');
   }
+
+.scroll-smooth {
+    scroll-behavior: smooth;
+}
   
 
 .mobile-sidebar {

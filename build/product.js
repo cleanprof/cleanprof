@@ -10,7 +10,7 @@ var projectCards = new Vue({
         spec : "60 mL",
         price : "99,999",
         discountPrice : "1,000",
-        link : "https://www.tokopedia.com/"
+        link : "http://www.tokopedia.com/cleanprofid"
       },
       {
         id : 2,
@@ -20,7 +20,7 @@ var projectCards = new Vue({
         spec : "60 mL",
         price : "99,999",
         discountPrice : "1,000",
-        link : "https://www.tokopedia.com/",
+        link : "http://www.tokopedia.com/cleanprofid",
       },
       { 
         id : 3, 
@@ -30,7 +30,7 @@ var projectCards = new Vue({
         spec : "100 mL",
         price : "99,999",
         discountPrice : "",
-        link : "https://www.tokopedia.com/",
+        link : "http://www.tokopedia.com/cleanprofid",
       },
       { 
         id : 4,
@@ -40,7 +40,7 @@ var projectCards = new Vue({
         spec : "100 mL",
         price : "99,999",
         discountPrice : "",
-        link : "https://www.tokopedia.com/",
+        link : "http://www.tokopedia.com/cleanprofid",
       },
       { 
         id : 5,
@@ -50,7 +50,7 @@ var projectCards = new Vue({
         spec : "100 mL",
         price : "99,999",
         discountPrice : "",
-        link : "https://www.tokopedia.com/",
+        link : "http://www.tokopedia.com/cleanprofid",
       },
       {
         id : 6,
@@ -60,7 +60,7 @@ var projectCards = new Vue({
         spec : "60 mL",
         price : "99,999",
         discountPrice : "1,000",
-        link : "https://www.tokopedia.com/"
+        link : "http://www.tokopedia.com/cleanprofid"
       },
       {
         id : 7,
@@ -70,7 +70,7 @@ var projectCards = new Vue({
         spec : "60 mL",
         price : "99,999",
         discountPrice : "1,000",
-        link : "https://www.tokopedia.com/",
+        link : "http://www.tokopedia.com/cleanprofid",
       },
       { 
         id : 8, 
@@ -80,7 +80,7 @@ var projectCards = new Vue({
         spec : "100 mL",
         price : "99,999",
         discountPrice : "",
-        link : "https://www.tokopedia.com/",
+        link : "http://www.tokopedia.com/cleanprofid",
       },
       { 
         id : 9,
@@ -90,7 +90,7 @@ var projectCards = new Vue({
         spec : "100 mL",
         price : "99,999",
         discountPrice : "",
-        link : "https://www.tokopedia.com/",
+        link : "http://www.tokopedia.com/cleanprofid",
       },
       { 
         id : 10,
@@ -100,7 +100,7 @@ var projectCards = new Vue({
         spec : "100 mL",
         price : "99,999",
         discountPrice : "",
-        link : "https://www.tokopedia.com/",
+        link : "http://www.tokopedia.com/cleanprofid",
       }
     ]    
   }
