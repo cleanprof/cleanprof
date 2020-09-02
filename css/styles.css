@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Dark Overlay Fade */
 #overlay {
   height: 0; opacity: 0;
