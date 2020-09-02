@@ -605,6 +605,10 @@ video {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Dark Overlay Fade */
 
 #overlay {
@@ -12573,6 +12577,10 @@ video {
 
 .min-h-screen {
   min-height: 100vh;
+}
+
+.min-h-3\/5screen {
+  min-height: 60vh;
 }
 
 .min-h-4\/5screen {
@@ -32149,6 +32157,10 @@ video {
     min-height: 100vh;
   }
 
+  .sm\:min-h-3\/5screen {
+    min-height: 60vh;
+  }
+
   .sm\:min-h-4\/5screen {
     min-height: 80vh;
   }
@@ -51679,6 +51691,10 @@ video {
 
   .md\:min-h-screen {
     min-height: 100vh;
+  }
+
+  .md\:min-h-3\/5screen {
+    min-height: 60vh;
   }
 
   .md\:min-h-4\/5screen {
@@ -71213,6 +71229,10 @@ video {
     min-height: 100vh;
   }
 
+  .lg\:min-h-3\/5screen {
+    min-height: 60vh;
+  }
+
   .lg\:min-h-4\/5screen {
     min-height: 80vh;
   }
@@ -90743,6 +90763,10 @@ video {
 
   .xl\:min-h-screen {
     min-height: 100vh;
+  }
+
+  .xl\:min-h-3\/5screen {
+    min-height: 60vh;
   }
 
   .xl\:min-h-4\/5screen {
