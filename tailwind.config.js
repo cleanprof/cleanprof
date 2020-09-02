@@ -18,6 +18,7 @@ module.exports = {
         'logo': '10%',
       },
       minHeight: {
+        '3/5screen': '60vh',
         '4/5screen': '80vh',
       },
       colors: {
