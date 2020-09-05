@@ -10939,6 +10939,10 @@ html {
   height: 10%;
 }
 
+.h-3\/5screen {
+  height: 60vh;
+}
+
 .text-xs {
   font-size: 0.75rem;
 }
@@ -30517,6 +30521,10 @@ html {
     height: 10%;
   }
 
+  .sm\:h-3\/5screen {
+    height: 60vh;
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
   }
@@ -50051,6 +50059,10 @@ html {
 
   .md\:h-logo {
     height: 10%;
+  }
+
+  .md\:h-3\/5screen {
+    height: 60vh;
   }
 
   .md\:text-xs {
@@ -69589,6 +69601,10 @@ html {
     height: 10%;
   }
 
+  .lg\:h-3\/5screen {
+    height: 60vh;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
   }
@@ -89123,6 +89139,10 @@ html {
 
   .xl\:h-logo {
     height: 10%;
+  }
+
+  .xl\:h-3\/5screen {
+    height: 60vh;
   }
 
   .xl\:text-xs {
