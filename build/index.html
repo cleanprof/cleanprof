@@ -15,17 +15,17 @@
     <div class="absolute h-4/5screen lg:h-screen w-full shadow z-0">
       <div id="slides" class="relative h-full w-full">
 
-        <img src="./resources/slide-show-compress/aqua-1.jpg" class="absolute h-full w-full object-cover object-top">
+        <!-- <img src="./resources/slide-show-compress/aqua-1.jpg" class="absolute h-full w-full object-cover object-top"> -->
         <!-- <img src="./resources/slide-show-compress/family-2.jpg" class="absolute hidden h-full w-full object-cover object-top"> -->
         <!-- <img src="./resources/slide-show-compress/on-orange-2.jpg" class="absolute hidden h-full w-full object-cover object-top"> -->
         <!-- <img src="./resources/slide-show-compress/underwater.jpg" class="absolute hidden h-full w-full object-cover object-top"> -->
         
-        <!-- <img class="absolute hidden h-full w-full object-cover object-top" v-for="image in images" :key="image.id" v-bind:src="image.source"> -->
+        <img class="slide absolute h-full w-full object-cover object-top transition-opacity duration-2s" v-for="image in images" :key="image.id" v-bind:src="image.source">
         
         <div class="absolute h-full w-full bg-black opacity-25 z-20"></div>
 
         <div id="slide-indicator" class="absolute w-full inset-x-0 bottom-0 py-24 md:py-16 text-center z-20">
-          <span class="h-2 w-2 px-1 mr-2 cursor-pointer bg-gray-100 rounded-full inline-block z-20" v-for="image in images" v-on:click=""></span>
+          <span class="dot h-2 w-2 px-1 mr-2 cursor-pointer bg-gray-100 rounded-full inline-block z-20" v-for="image in images" v-on:click=""></span>
           <!-- <span class="h-2 w-2 px-1 mr-2 cursor-pointer bg-gray-100 rounded-full inline-block z-20" v-on:click=""></span> -->
         </div>
       </div>

@@ -32,6 +32,10 @@ module.exports = {
         'width': 'width',
         'display': 'display',
       },
+      transitionDuration: {        
+        '2s': '3000ms',
+        '3s': '3000ms',
+      },
       keyframes: {
         fadein: {
           '0%': { opacity: 0, transform: 'scale(0)' },

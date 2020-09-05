@@ -646,6 +646,35 @@ html {
   left: 0;
 }
 
+/* Fading animation */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .navlink:hover:after {
     background-color: #fff;
@@ -20167,6 +20196,14 @@ html {
 
 .duration-1000 {
   transition-duration: 1000ms;
+}
+
+.duration-2s {
+  transition-duration: 3000ms;
+}
+
+.duration-3s {
+  transition-duration: 3000ms;
 }
 
 .delay-75 {
@@ -39751,6 +39788,14 @@ html {
     transition-duration: 1000ms;
   }
 
+  .sm\:duration-2s {
+    transition-duration: 3000ms;
+  }
+
+  .sm\:duration-3s {
+    transition-duration: 3000ms;
+  }
+
   .sm\:delay-75 {
     transition-delay: 75ms;
   }
@@ -59289,6 +59334,14 @@ html {
 
   .md\:duration-1000 {
     transition-duration: 1000ms;
+  }
+
+  .md\:duration-2s {
+    transition-duration: 3000ms;
+  }
+
+  .md\:duration-3s {
+    transition-duration: 3000ms;
   }
 
   .md\:delay-75 {
@@ -78831,6 +78884,14 @@ html {
     transition-duration: 1000ms;
   }
 
+  .lg\:duration-2s {
+    transition-duration: 3000ms;
+  }
+
+  .lg\:duration-3s {
+    transition-duration: 3000ms;
+  }
+
   .lg\:delay-75 {
     transition-delay: 75ms;
   }
@@ -98369,6 +98430,14 @@ html {
 
   .xl\:duration-1000 {
     transition-duration: 1000ms;
+  }
+
+  .xl\:duration-2s {
+    transition-duration: 3000ms;
+  }
+
+  .xl\:duration-3s {
+    transition-duration: 3000ms;
   }
 
   .xl\:delay-75 {
