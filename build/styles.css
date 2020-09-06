@@ -10972,6 +10972,10 @@ html {
   height: 60vh;
 }
 
+.h-9\/10screen {
+  height: 90vh;
+}
+
 .text-xs {
   font-size: 0.75rem;
 }
@@ -11014,6 +11018,14 @@ html {
 
 .text-discount {
   font-size: .7rem;
+}
+
+.text-7xl {
+  font-size: 5rem;
+}
+
+.text-8xl {
+  font-size: 10rem;
 }
 
 .leading-3 {
@@ -30566,6 +30578,10 @@ html {
     height: 60vh;
   }
 
+  .sm\:h-9\/10screen {
+    height: 90vh;
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
   }
@@ -30608,6 +30624,14 @@ html {
 
   .sm\:text-discount {
     font-size: .7rem;
+  }
+
+  .sm\:text-7xl {
+    font-size: 5rem;
+  }
+
+  .sm\:text-8xl {
+    font-size: 10rem;
   }
 
   .sm\:leading-3 {
@@ -50118,6 +50142,10 @@ html {
     height: 60vh;
   }
 
+  .md\:h-9\/10screen {
+    height: 90vh;
+  }
+
   .md\:text-xs {
     font-size: 0.75rem;
   }
@@ -50160,6 +50188,14 @@ html {
 
   .md\:text-discount {
     font-size: .7rem;
+  }
+
+  .md\:text-7xl {
+    font-size: 5rem;
+  }
+
+  .md\:text-8xl {
+    font-size: 10rem;
   }
 
   .md\:leading-3 {
@@ -69670,6 +69706,10 @@ html {
     height: 60vh;
   }
 
+  .lg\:h-9\/10screen {
+    height: 90vh;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
   }
@@ -69712,6 +69752,14 @@ html {
 
   .lg\:text-discount {
     font-size: .7rem;
+  }
+
+  .lg\:text-7xl {
+    font-size: 5rem;
+  }
+
+  .lg\:text-8xl {
+    font-size: 10rem;
   }
 
   .lg\:leading-3 {
@@ -89222,6 +89270,10 @@ html {
     height: 60vh;
   }
 
+  .xl\:h-9\/10screen {
+    height: 90vh;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
   }
@@ -89264,6 +89316,14 @@ html {
 
   .xl\:text-discount {
     font-size: .7rem;
+  }
+
+  .xl\:text-7xl {
+    font-size: 5rem;
+  }
+
+  .xl\:text-8xl {
+    font-size: 10rem;
   }
 
   .xl\:leading-3 {

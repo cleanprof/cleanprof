@@ -124,7 +124,12 @@ var projectCards = new Vue({
     },
 
     priceCommaString: function (price) {
-      return price.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+      var parts = price.toString().split(".");
+      parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      return parts.join(".");
+
+      // Safari doesn't support JS Lookbehind yet
+      // return price.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
     }
   }
 })

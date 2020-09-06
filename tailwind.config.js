@@ -8,7 +8,9 @@ module.exports = {
         'univers' : ['Univers LT Std 55 Roman'],
       },
       fontSize: {
-        'discount': '.7rem'
+        'discount': '.7rem',
+        '7xl': '5rem',
+        '8xl': '10rem',
       },
       spacing: {
         '5/100': '5%',
@@ -21,6 +23,7 @@ module.exports = {
         'logo': '10%',
         '3/5screen': '60vh',
         '4/5screen': '80vh',
+        '9/10screen': '90vh',
       },
       minHeight: {
         '3/5screen': '60vh',
