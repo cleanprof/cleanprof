@@ -14,19 +14,12 @@
   <section class="relative min-h-4/5screen h-4/5screen w-full lg:h-screen">
     <div class="absolute h-4/5screen lg:h-screen w-full shadow z-0">
       <div id="slides" class="relative h-full w-full">
-
-        <!-- <img src="./resources/slide-show-compress/aqua-1.jpg" class="absolute h-full w-full object-cover object-top"> -->
-        <!-- <img src="./resources/slide-show-compress/family-2.jpg" class="absolute hidden h-full w-full object-cover object-top"> -->
-        <!-- <img src="./resources/slide-show-compress/on-orange-2.jpg" class="absolute hidden h-full w-full object-cover object-top"> -->
-        <!-- <img src="./resources/slide-show-compress/underwater.jpg" class="absolute hidden h-full w-full object-cover object-top"> -->
-        
         <img class="slide absolute h-full w-full object-cover object-top transition-opacity duration-2s" v-for="image in images" :key="image.id" v-bind:src="image.source">
         
         <div class="absolute h-full w-full bg-black opacity-25 z-20"></div>
 
         <div id="slide-indicator" class="absolute w-full inset-x-0 bottom-0 py-24 md:py-16 text-center z-20">
           <span class="dot h-2 w-2 px-1 mr-2 cursor-pointer bg-gray-100 rounded-full inline-block z-20" v-for="image in images" v-on:click=""></span>
-          <!-- <span class="h-2 w-2 px-1 mr-2 cursor-pointer bg-gray-100 rounded-full inline-block z-20" v-on:click=""></span> -->
         </div>
       </div>
     </div>
@@ -103,26 +96,26 @@
           <div class="relative max-w-auto mx-auto">
             <img class="w-full shadow-sm rounded-lg text-sm text-center lg:text-base md:text-left" v-bind:src="product.image" v-bind:alt="product.imageAlt">
             <div class="px-6 py-2 text-gray-700">
-              <div class="card-title mb-2"> {{ product.name }} </div>
+              <div class="card-title font-medium"> {{ product.name }} </div>
               <p class="card-content">
                 {{ product.spec }}
               </p>
             </div>
-            <div class="px-6 py-2" v-if="product.discountPrice">
-              <p class="price line-through text-red-600 text-xs mr-2">IDR {{ product.price }}</p>
-              <p class="price text-green-600 mr-2">IDR {{ product.discountPrice }}</p>
+            <div class="px-6 pt-1 pb-8" v-if="product.discount">
+              <p class="price line-through text-red-600 text-xs mr-2">IDR {{ priceCommaString(product.price) }}</p>
+              <p class="price text-green-600 mr-2">IDR {{ discountPrice(product) }}</p>
             </div>
-            <div class="px-6 py-2" v-else>
-              <p class="price text-green-600 mr-2">IDR {{ product.price }}</p>
+            <div class="px-6 pt-1 pb-2" v-else>
+              <p class="price text-green-600 mr-2">IDR {{ priceCommaString(product.price) }}</p>
             </div>
 
-            <div v-if="product.discountPrice" class="flex absolute top-0 right-0 ">
+            <div v-if="product.discount" class="flex absolute top-0 right-0 ">
               <span class="absolute inline-flex animate-ping">
-                <span class="inline-flex rounded-lg h-10 w-10 bg-orange-500 opacity-75"></span>
+                <span class="inline-flex rounded-lg h-8 w-8 bg-orange-500 opacity-75"></span>
               </span>
-              <span class="relative inline-flex flex-wrap rounded-lg h-10 w-10 bg-orange-bright text-xs text-white font-bold justify-center items-center">
-                <p>15%</p>
-                <p class="font-thin">Off</p>
+              <span class="relative inline-flex flex-wrap rounded-lg h-8 w-8 bg-orange-bright text-discount text-white font-bold space-y-0 justify-center items-center">
+                <p>{{ product.discount }}</p>
+                <p class="font-medium">Off</p>
               </span>
             </div>
           </div>

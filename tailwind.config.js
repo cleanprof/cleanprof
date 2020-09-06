@@ -7,6 +7,9 @@ module.exports = {
         'omnes' : ['Omnes Regular'],
         'univers' : ['Univers LT Std 55 Roman'],
       },
+      fontSize: {
+        'discount': '.7rem'
+      },
       spacing: {
         '5/100': '5%',
         '7/100': '7%',
