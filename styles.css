@@ -11012,6 +11012,10 @@ html {
   font-size: 4rem;
 }
 
+.text-discount {
+  font-size: .7rem;
+}
+
 .leading-3 {
   line-height: .75rem;
 }
@@ -30602,6 +30606,10 @@ html {
     font-size: 4rem;
   }
 
+  .sm\:text-discount {
+    font-size: .7rem;
+  }
+
   .sm\:leading-3 {
     line-height: .75rem;
   }
@@ -50148,6 +50156,10 @@ html {
 
   .md\:text-6xl {
     font-size: 4rem;
+  }
+
+  .md\:text-discount {
+    font-size: .7rem;
   }
 
   .md\:leading-3 {
@@ -69698,6 +69710,10 @@ html {
     font-size: 4rem;
   }
 
+  .lg\:text-discount {
+    font-size: .7rem;
+  }
+
   .lg\:leading-3 {
     line-height: .75rem;
   }
@@ -89244,6 +89260,10 @@ html {
 
   .xl\:text-6xl {
     font-size: 4rem;
+  }
+
+  .xl\:text-discount {
+    font-size: .7rem;
   }
 
   .xl\:leading-3 {

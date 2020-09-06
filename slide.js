@@ -40,10 +40,10 @@ function showSlides() {
   if (slideIndex > slides.length) {slideIndex = 1}    
   
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" bg-gray-800", "bg-white");
+    dots[i].className = dots[i].className.replace(" bg-orange-bright", "bg-white");
   }
 
   slides[slideIndex-1].style.opacity = 1;  
-  dots[slideIndex-1].className += " bg-gray-500";
-  setTimeout(showSlides, 5000); // Change image every 2 seconds
+  dots[slideIndex-1].className += " bg-orange-bright";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
