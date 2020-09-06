@@ -63,7 +63,7 @@ var projectCards = new Vue({
         link : "http://www.tokopedia.com/cleanprofid",
       },
       { 
-        id : 7 
+        id : 7,
         image : "./resources/product-pic/hs-5L-nu-low-pix.png",
         imageAlt : "Hand Sanitizer 5 L",
         name : "Hand Sanitizer",
