@@ -54,7 +54,7 @@ var projectCards = new Vue({
       },
       { 
         id : 7,
-        image : "./resources/product-pic/hs-5L-nu-low-pix.png",
+        image : "./resources/product-pic/hs-5L-low-pix.png",
         imageAlt : "Hand Sanitizer 5 L",
         name : "Hand Sanitizer",
         spec : "5 L",
@@ -95,7 +95,7 @@ var projectCards = new Vue({
       },
       {
         id : 11,
-        image : "./resources/product-pic/dis-5L-nu-low-pix.png",
+        image : "./resources/product-pic/dis-5L-low-pix.png",
         imageAlt : "Disinfectant Aerosol",
         name : "Disinfectant",
         spec : "5 L",
