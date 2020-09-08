@@ -45,5 +45,5 @@ function showSlides() {
 
   slides[slideIndex-1].style.opacity = 1;  
   dots[slideIndex-1].className += " bg-orange-bright";
-  setTimeout(showSlides, 5000); // Change image every 5 seconds
+  setTimeout(showSlides, 6000); // Change image every 5 seconds
 }
