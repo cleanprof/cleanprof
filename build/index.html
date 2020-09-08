@@ -11,7 +11,7 @@
   <title>Cleanprof prototype</title>
 </head>
 <body>
-  <section class="relative min-h-4/5screen  w-full lg:h-screen">
+  <section id="hero" class="relative min-h-4/5screen  w-full lg:h-screen">
     <div class="absolute h-4/5screen lg:h-screen w-full shadow z-0">
       <div id="slides" class="relative h-full w-full">
         <img class="slide absolute h-full w-full object-cover object-top transition-opacity duration-3s" v-for="image in images" :key="image.id" v-bind:src="image.source">
@@ -172,6 +172,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
   <script src="index.js"></script>
+  <script src="components.js"></script>
   <script src="slide.js"></script>
   <script src="product.js"></script>
 </body>
