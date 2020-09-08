@@ -14,7 +14,8 @@
   <section id="hero" class="relative min-h-4/5screen  w-full lg:h-screen">
     <div class="absolute h-4/5screen lg:h-screen w-full shadow z-0">
       <div id="slides" class="relative h-full w-full">
-        <img class="slide absolute h-full w-full object-cover object-top transition-opacity duration-3s" v-for="image in images" :key="image.id" v-bind:src="image.source">
+        
+        <img class="slide absolute h-full w-full object-cover object-top transition-opacity duration-3s" v-bind:src="currentImg">
         
         <div class="absolute h-full w-full bg-black opacity-25 z-20"></div>
 
