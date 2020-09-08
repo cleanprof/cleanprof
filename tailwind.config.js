@@ -9,7 +9,7 @@ module.exports = {
       },
       fontSize: {
         'discount': '.7rem',
-        '7xl': '5rem',
+        '7xl': '4.5rem',
         '8xl': '10rem',
       },
       spacing: {
