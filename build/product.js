@@ -99,11 +99,10 @@ var projectCards = new Vue({
         imageAlt : "Disinfectant Aerosol",
         name : "Disinfectant",
         spec : "5 L",
-        price : "350000",
+        price : "320000",
         discount : "20%",
         link : "http://www.tokopedia.com/cleanprofid",
       },
-      
     ]    
   },
   methods: {
