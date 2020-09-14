@@ -10,7 +10,7 @@ var projectCards = new Vue({
         spec : "60 mL",
         price : "15000",
         discount : "20%",
-        link : "http://www.tokopedia.com/cleanprofid",
+        link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-60ml-sedang-diskon-20-dari-harga-15-000",
       },
       { 
         id : 2,
@@ -20,7 +20,7 @@ var projectCards = new Vue({
         spec : "100 mL",
         price : "20000",
         discount : "20%",
-        link : "http://www.tokopedia.com/cleanprofid",
+        link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-100ml-sedang-diskon-20-dari-harga-20-000",
       },
       { 
         id : 3,
@@ -30,7 +30,7 @@ var projectCards = new Vue({
         spec : "250 mL",
         price : "35000",
         discount : "20%",
-        link : "http://www.tokopedia.com/cleanprofid",
+        link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-250ml-sedang-diskon-20-dari-harga-35-000",
       },
       { 
         id : 5,
@@ -40,7 +40,7 @@ var projectCards = new Vue({
         spec : "500 mL",
         price : "50000",
         discount : "20%",
-        link : "http://www.tokopedia.com/cleanprofid",
+        link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-500ml-sedang-diskon-20-dari-harga-50-000",
       },
       {
         id : 6,
@@ -50,7 +50,7 @@ var projectCards = new Vue({
         spec : "1 L",
         price : "80000",
         discount : "20%",
-        link : "http://www.tokopedia.com/cleanprofid",
+        link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-1l-sedang-diskon-20-dari-harga-80-000",
       },
       { 
         id : 7,
@@ -60,7 +60,7 @@ var projectCards = new Vue({
         spec : "5 L",
         price : "350000",
         discount : "20%",
-        link : "http://www.tokopedia.com/cleanprofid",
+        link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-500ml-sedang-diskon-20-dari-harga-50-000",
       },
       { 
         id : 8,
@@ -70,7 +70,7 @@ var projectCards = new Vue({
         spec : "250 mL",
         price : "45000",
         discount : "20%",
-        link : "http://www.tokopedia.com/cleanprofid",
+        link : "https://www.tokopedia.com/cleanprofid/disinfectant-aerosol-cleanprof-250ml-sedang-diskon-20-dari-rp-45000",
       },
       {
         id : 9,
@@ -80,7 +80,7 @@ var projectCards = new Vue({
         spec : "250 mL",
         price : "35000",
         discount : "20%",
-        link : "http://www.tokopedia.com/cleanprofid"
+        link : "https://www.tokopedia.com/cleanprofid/disinfectant-cleanprof-250ml-sedang-diskon-20-dari-harga-35-000"
       },
      
       {
@@ -91,17 +91,17 @@ var projectCards = new Vue({
         spec : "1 L",
         price : "70000",
         discount : "20%",
-        link : "http://www.tokopedia.com/cleanprofid"
+        link : "https://www.tokopedia.com/cleanprofid/disinfectant-cleanprof-1l-sedang-diskon-20-dari-harga-70-000"
       },
       {
         id : 11,
         image : "./resources/product-pic/dis-5L-low-pix.png",
-        imageAlt : "Disinfectant Aerosol",
+        imageAlt : "Disinfectant",
         name : "Disinfectant",
         spec : "5 L",
         price : "320000",
         discount : "20%",
-        link : "http://www.tokopedia.com/cleanprofid",
+        link : "https://www.tokopedia.com/cleanprofid/disinfectant-cleanprof-5l-sedang-diskon-20-dari-harga-320-000",
       },
     ]    
   },
