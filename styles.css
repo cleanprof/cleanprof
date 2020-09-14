@@ -11017,7 +11017,7 @@ html {
 }
 
 .text-discount {
-  font-size: .7rem;
+  font-size: .8rem;
 }
 
 .text-7xl {
@@ -11025,7 +11025,7 @@ html {
 }
 
 .text-8xl {
-  font-size: 10rem;
+  font-size: 5rem;
 }
 
 .leading-3 {
@@ -30623,7 +30623,7 @@ html {
   }
 
   .sm\:text-discount {
-    font-size: .7rem;
+    font-size: .8rem;
   }
 
   .sm\:text-7xl {
@@ -30631,7 +30631,7 @@ html {
   }
 
   .sm\:text-8xl {
-    font-size: 10rem;
+    font-size: 5rem;
   }
 
   .sm\:leading-3 {
@@ -50187,7 +50187,7 @@ html {
   }
 
   .md\:text-discount {
-    font-size: .7rem;
+    font-size: .8rem;
   }
 
   .md\:text-7xl {
@@ -50195,7 +50195,7 @@ html {
   }
 
   .md\:text-8xl {
-    font-size: 10rem;
+    font-size: 5rem;
   }
 
   .md\:leading-3 {
@@ -69751,7 +69751,7 @@ html {
   }
 
   .lg\:text-discount {
-    font-size: .7rem;
+    font-size: .8rem;
   }
 
   .lg\:text-7xl {
@@ -69759,7 +69759,7 @@ html {
   }
 
   .lg\:text-8xl {
-    font-size: 10rem;
+    font-size: 5rem;
   }
 
   .lg\:leading-3 {
@@ -89315,7 +89315,7 @@ html {
   }
 
   .xl\:text-discount {
-    font-size: .7rem;
+    font-size: .8rem;
   }
 
   .xl\:text-7xl {
@@ -89323,7 +89323,7 @@ html {
   }
 
   .xl\:text-8xl {
-    font-size: 10rem;
+    font-size: 5rem;
   }
 
   .xl\:leading-3 {
