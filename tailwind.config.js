@@ -3,7 +3,6 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        // 'sans': ['Omnes Regular', 'Helvetica', 'Arial', 'sans-serif']
         'omnes' : ['Omnes Regular'],
         'univers' : ['Univers LT Std 55 Roman'],
       },
