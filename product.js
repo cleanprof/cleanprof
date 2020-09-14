@@ -1,5 +1,5 @@
-var projectCards = new Vue({
-  el: '#project-cards',
+var products = new Vue({
+  el: '#products',
   data: {
     products : [
       { 
