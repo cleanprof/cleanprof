@@ -16,13 +16,13 @@ let navBurger = document.getElementById("navburger");
 let navClose = document.getElementById("navclose");
 
 navBurger.addEventListener("click", function(){
-  disableScroll();
+  // disableScroll();
   overlayElement.classList.add("visible");
   document.getElementById("navmenu").style.width = "60%";
 });
 
 navClose.addEventListener("click", function(){
-  enableScroll();
+  // enableScroll();
   overlayElement.classList.remove("visible");
   document.getElementById("navmenu").style.width = "0";
 });
