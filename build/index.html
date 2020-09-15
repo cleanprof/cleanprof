@@ -14,13 +14,11 @@
   <section id="hero" class="relative min-h-4/5screen  w-full lg:h-screen">
     <div class="absolute h-4/5screen lg:h-screen w-full shadow z-0">
       <div id="slides" class="relative h-full w-full">
-        <img class="slide absolute h-full w-full object-cover object-top transition-opacity duration-3s" v-for="image in images" :key="image.id" v-bind:src="image.source">
+        <video autoplay muted loop class="slide absolute h-full w-full object-cover object-top">
+          <source src="/build/resources/video/Cleanprof-mute-360.mp4" type="video/mp4">
+        </video>
         
         <div class="absolute h-full w-full bg-black opacity-25 z-20"></div>
-
-        <div id="slide-indicator" class="absolute w-full inset-x-0 bottom-0 py-24 md:py-16 text-center z-20">
-          <span class="dot h-2 w-2 px-1 mr-2 cursor-pointer bg-gray-100 rounded-full inline-block z-20" v-for="image in images" v-on:click=""></span>
-        </div>
       </div>
     </div>
 
