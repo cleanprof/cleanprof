@@ -1,5 +1,11 @@
 module.exports = {
-  purge: [],
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
+  purge: {
+    enabled: true,
+    content: ['./build/*.html',],
+  },
   theme: {
     extend: {
       fontFamily: {
