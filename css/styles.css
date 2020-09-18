@@ -47,6 +47,10 @@ html {
   animation-duration: 1.5s;
 }
 
+.headline-shadow {
+  text-shadow: -4px 4px #679966;
+}
+
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}

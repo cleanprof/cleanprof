@@ -8,8 +8,8 @@ var products = new Vue({
         imageAlt : "Hand Sanitizer 60 mL",
         name : "Hand Sanitizer",
         spec : "60 mL",
-        price : "15000",
-        discount : "20%",
+        price : "17000",
+        discount : "30%",
         link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-60ml-sedang-diskon-20-dari-harga-15-000",
       },
       { 
@@ -18,8 +18,8 @@ var products = new Vue({
         imageAlt : "Hand Sanitizer 100 mL",
         name : "Hand Sanitizer",
         spec : "100 mL",
-        price : "20000",
-        discount : "20%",
+        price : "22000",
+        discount : "30%",
         link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-100ml-sedang-diskon-20-dari-harga-20-000",
       },
       { 
@@ -28,8 +28,8 @@ var products = new Vue({
         imageAlt : "Hand Sanitizer 250 mL",
         name : "Hand Sanitizer Spray",
         spec : "250 mL",
-        price : "35000",
-        discount : "20%",
+        price : "38000",
+        discount : "30%",
         link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-250ml-sedang-diskon-20-dari-harga-35-000",
       },
       { 
@@ -38,8 +38,8 @@ var products = new Vue({
         imageAlt : "Hand Sanitizer 500 mL",
         name : "Hand Sanitizer",
         spec : "500 mL",
-        price : "50000",
-        discount : "20%",
+        price : "55000",
+        discount : "30%",
         link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-500ml-sedang-diskon-20-dari-harga-50-000",
       },
       {
@@ -48,8 +48,8 @@ var products = new Vue({
         imageAlt : "Hand Sanitizer 1 L",
         name : "Hand Sanitizer",
         spec : "1 L",
-        price : "80000",
-        discount : "20%",
+        price : "88000",
+        discount : "30%",
         link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-1l-sedang-diskon-20-dari-harga-80-000",
       },
       { 
@@ -58,8 +58,8 @@ var products = new Vue({
         imageAlt : "Hand Sanitizer 5 L",
         name : "Hand Sanitizer",
         spec : "5 L",
-        price : "350000",
-        discount : "20%",
+        price : "388000",
+        discount : "30%",
         link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-500ml-sedang-diskon-20-dari-harga-50-000",
       },
       { 
@@ -68,8 +68,8 @@ var products = new Vue({
         imageAlt : "Disinfectant Aerosol 250 mL",
         name : "Disinfectant Aerosol",
         spec : "250 mL",
-        price : "45000",
-        discount : "20%",
+        price : "50000",
+        discount : "30%",
         link : "https://www.tokopedia.com/cleanprofid/disinfectant-aerosol-cleanprof-250ml-sedang-diskon-20-dari-rp-45000",
       },
       {
@@ -78,8 +78,8 @@ var products = new Vue({
         imageAlt : "Disinfectant Spray 250 mL",
         name : "Disinfectant Spray",
         spec : "250 mL",
-        price : "35000",
-        discount : "20%",
+        price : "38000",
+        discount : "30%",
         link : "https://www.tokopedia.com/cleanprofid/disinfectant-cleanprof-250ml-sedang-diskon-20-dari-harga-35-000"
       },
      
@@ -89,8 +89,8 @@ var products = new Vue({
         imageAlt : "Disinfectant",
         name : "Disinfectant",
         spec : "1 L",
-        price : "70000",
-        discount : "20%",
+        price : "77000",
+        discount : "30%",
         link : "https://www.tokopedia.com/cleanprofid/disinfectant-cleanprof-1l-sedang-diskon-20-dari-harga-70-000"
       },
       {
@@ -99,8 +99,8 @@ var products = new Vue({
         imageAlt : "Disinfectant",
         name : "Disinfectant",
         spec : "5 L",
-        price : "320000",
-        discount : "20%",
+        price : "355000",
+        discount : "30%",
         link : "https://www.tokopedia.com/cleanprofid/disinfectant-cleanprof-5l-sedang-diskon-20-dari-harga-320-000",
       },
     ]    
