@@ -656,7 +656,7 @@ html {
 }
 
 .headline-shadow {
-  text-shadow: -4px 4px #679966;
+  text-shadow: -2px 2px 1px #679966;
 }
 
 @-webkit-keyframes fade {
@@ -1017,6 +1017,10 @@ html {
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .ml-4 {

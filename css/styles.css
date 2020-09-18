@@ -48,7 +48,7 @@ html {
 }
 
 .headline-shadow {
-  text-shadow: -4px 4px #679966;
+  text-shadow: -2px 2px 1px #679966;
 }
 
 @-webkit-keyframes fade {
