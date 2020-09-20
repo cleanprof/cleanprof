@@ -3,7 +3,7 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
   },
   purge: {
-    enabled: true,
+    // enabled: true,
     content: ['./build/*.html',],
   },
   theme: {
