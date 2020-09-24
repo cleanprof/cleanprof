@@ -8,6 +8,8 @@ This website is currently live in [here](https://vandercoder.github.io/cleanprof
 1. Clone/Download this repository
 2. Open build/index.html
 
+### How to update products
+
 ### Tech Stacks:
 - TailwindCSS (PostCSS)
 - Jquery
