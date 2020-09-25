@@ -64,7 +64,6 @@ module.exports = {
         'footer-tr': '40% 85%',
       }
     },
-    
   },
   variants: {},
   plugins: [],
