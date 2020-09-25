@@ -5,7 +5,7 @@ let productList = [
     name : "Hand Sanitizer",
     spec : "60 mL",
     price : "17000",
-    discount : "30%",
+    discount : "20%",
     link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-60ml",
   },
   { 
@@ -14,7 +14,7 @@ let productList = [
     name : "Hand Sanitizer",
     spec : "100 mL",
     price : "22000",
-    discount : "30%",
+    discount : "20%",
     link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-100ml",
   },
   { 
@@ -23,7 +23,7 @@ let productList = [
     name : "Hand Sanitizer Spray",
     spec : "250 mL",
     price : "38000",
-    discount : "30%",
+    discount : "20%",
     link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-250ml",
   },
   { 
@@ -32,7 +32,7 @@ let productList = [
     name : "Hand Sanitizer",
     spec : "500 mL",
     price : "55000",
-    discount : "30%",
+    discount : "20%",
     link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-500ml",
   },
   {
@@ -41,7 +41,7 @@ let productList = [
     name : "Hand Sanitizer",
     spec : "1 L",
     price : "80000",
-    discount : "30%",
+    discount : "20%",
     link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-1l",
   },
   { 
@@ -50,7 +50,7 @@ let productList = [
     name : "Hand Sanitizer",
     spec : "5 L",
     price : "400000",
-    discount : "30%",
+    discount : "20%",
     link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-5l",
   },
   {
@@ -59,7 +59,7 @@ let productList = [
     name : "Disinfectant Spray",
     spec : "250 mL",
     price : "38000",
-    discount : "30%",
+    discount : "20%",
     link : "https://www.tokopedia.com/cleanprofid/disinfectant-cleanprof-250ml"
   },
   { 
@@ -68,7 +68,7 @@ let productList = [
     name : "Disinfectant Aerosol",
     spec : "250 mL",
     price : "50000",
-    discount : "30%",
+    discount : "20%",
     link : "https://www.tokopedia.com/cleanprofid/disinfectant-aerosol-cleanprof-250ml",
   },
   {
@@ -77,7 +77,7 @@ let productList = [
     name : "Disinfectant",
     spec : "1 L",
     price : "70000",
-    discount : "30%",
+    discount : "20%",
     link : "https://www.tokopedia.com/cleanprofid/disinfectant-cleanprof-1l"
   },
   {
@@ -86,7 +86,7 @@ let productList = [
     name : "Disinfectant",
     spec : "5 L",
     price : "350000",
-    discount : "30%",
+    discount : "20%",
     link : "https://www.tokopedia.com/cleanprofid/disinfectant-cleanprof-5l",
   },
 ]  
