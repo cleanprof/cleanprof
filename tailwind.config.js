@@ -14,6 +14,11 @@ module.exports = {
         'univers' : ['Univers LT Std 55 Roman'],
       },
       fontSize: {
+        '2vh' : '2vh',
+        '3vh' : '3vh',
+        '4vh' : '4vh',
+        '5vh' : '5vh',
+        '6vh' : '6vh',
         'discount': '.8rem',
         '7xl': '4.5rem',
         '8xl': '5rem',
