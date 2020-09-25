@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CleanProf adalah sebuah brand yang bergerak didalam bidang kesehatan dan perawatan sanitasi luar yang diciptakan demi kenyamanan serta kehigenisan disekitar ruang aktivitas anda, kami hadir menyediakan produk dengan bahan alami yang halus di kulit dan tidak berbahaya untuk orang tercinta anda. ">
+  <link rel="preload" href="./resources/fonts/omnes-regular-webfont.woff" as="font" type="font/woff" crossorigin> 
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Cleanprof</title>
+</head>
+<body>
+  <section id="hero" class="relative min-h-4/5screen  w-full lg:h-screen">
+    <div class="absolute h-4/5screen lg:h-screen w-full shadow z-0">
+      <div id="slides" class="relative h-full w-full">
+        <video autoplay muted loop playsinline class="slide absolute h-full w-full object-cover object-top" >
+          <source src="./resources/video/Cleanprof-mute-360.mp4" type="video/mp4">
+        </video>
+        
+        <div class="absolute h-full w-full bg-black opacity-25 z-20"></div>
+      </div>
+    </div>
+
+    <nav class="flex items-center justify-between flex-wrap bg-0 p-4 sm:p-6">
+      <a href="index.html" class="flex items-center flex-shrink-0 lg:px-10">
+        <img src="./resources/logo-cleanprof.png" class="max-w-full h-16 z-10 sm:h-20"></img>
+      </a>
+      <div class="block z-10 lg:hidden">
+        <button id="navburger" class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white">
+          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+        </button>
+      </div>
+      <div id="navmenu" class="transition-width duration-500 mobile-sidebar flex-grow desktop-navbar">
+        <div class="font-omnes text-lg text-white-green font-semibold lg:flex-grow">
+          <a id="navclose" class="absolute top-0 right-0 p-10 lg:hidden">
+            X
+          </a>
+          <a href="index.html" class="navlink lg:inline-block lg:mt-0">
+            Shop
+          </a>
+          <a href="our-story.html" class="navlink lg:inline-block lg:mt-0">
+            Our Story
+          </a>
+          <a href="ingredients.html" class="navlink lg:inline-block lg:mt-0">
+            Ingredients
+          </a>
+          <a href="catalog.html" class="navlink lg:inline-block lg:mt-0">
+            Catalog
+          </a>
+          <a href="retailers.html" class="navlink lg:inline-block lg:mt-0">
+            Retailers
+          </a>
+          <a href="contact-us.html" class="navlink lg:inline-block lg:mt-0">
+            Contact Us
+          </a>
+        </div>
+        <div class=>
+          <a 
+            href="http://www.tokopedia.com/cleanprofid" 
+            class="inline-block text-sm px-2 py-1 leading-none border rounded-full bg-white-green hover:bg-opacity-75 font-semibold ml-4 mt-4 lg:mt-0"
+          >
+            <img src="resources/tokopedia-logo.svg" class="w-20"></img>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="relative font-univers px-6 pt-2 pb-7/100 text-left text-white-green lg:tracking-widest lg:py-12 lg:mx-24">
+      <p class="text-5vh md:text-6xl lg:text-8xl font-bold">Special Offers</p>
+      <p class="text-5vh md:text-6xl lg:text-8xl font-bold">Up To 20%</p>
+      <p class="text-2vh md:text-2xl lg:text-2xl pt-1">Promo until 
+        <span class="font-bold">30 September 2020</span>
+      </p>
+      <a href="#products" class="inline-block rounded-full py-2 px-4 leading-none bg-orange-bright border-white hover:border-transparent hover:text-orange-bright hover:bg-white mt-4 lg:mt-4">
+        SHOP NOW!          
+      </a>
+      <p class="font-omnes text-3vh md:text-xl py-1 sm:py-2">Find us on
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cleanprof.id/" class="fa fa-instagram mx-2"></a>
+        <a class="fab fa-facebook-square" href="https://www.facebook.com/CleanProf.ID"></a>
+      </p>
+    </div>
+  </section>
+
+  <section id="products" class="relative bg-white py-24 -mt-10 rounded-2rem md:mt-0 md:rounded-none">
+    <div class="absolute flex justify-center inset-x-0 top-0 -mt-10">
+      <div class="flex items-center w-full h-auto">
+        <img 
+          class="px-6 h-20 sm:h-full mx-auto" 
+          src="./resources/background-mosaic.png">
+        </img>
+        <p class="absolute font-univers text-white text-center text-wrap w-full px-6 headline-shadow text-2xl sm:text-5xl lg:text-6xl font-bold">
+          Caring For Your Sanitation</p>
+      </div>
+    </div>
+
+    <p class="font-bold font-univers text-center text-2xl sm:text-left sm:text-4xl sm:ml-12 px-4 sm:mt-32 mb-6 sm:mb-20">
+      Featured Products
+    </p>
+
+    <div id="products">
+      <div class="font-omnes h-auto grid grid-cols-2 md:gap-2 md:px-2 lg:px-16 md:grid-cols-5">
+        <a target="_blank" rel="noopener noreferrer" v-bind:href="product.link" class="card-main p-2 md:px-4 md:mb-6" v-for="product in products" :key="product.id">
+          <div class="relative max-w-auto mx-auto">
+            <img class="w-full shadow-sm rounded-lg text-sm text-center lg:text-base md:text-left" v-bind:src="product.image" v-bind:alt="product.name">
+            <div class="px-6 py-2 text-gray-700">
+              <div class="card-title font-medium mb-1"> {{ product.name }} </div>
+              <p class="card-content">
+                {{ product.spec }}
+              </p>
+            </div>
+            <div class="px-6 pt-1 pb-8" v-if="product.discount">
+              <p class="price line-through text-red-600 text-xs mr-2">IDR {{ priceCommaString(product.price) }}</p>
+              <p class="price text-green-600 mr-2">IDR {{ discountPrice(product) }}</p>
+            </div>
+            <div class="px-6 pt-1 pb-2" v-else>
+              <p class="price text-green-600 mr-2">IDR {{ priceCommaString(product.price) }}</p>
+            </div>
+
+            <div v-if="product.discount" class="flex absolute top-0 right-0 ">
+              <span class="absolute inline-flex animate-ping">
+                <span class="inline-flex rounded-lg h-10 w-10 bg-orange-500 opacity-75"></span>
+              </span>
+              <span class="relative inline-flex flex-wrap rounded-lg h-10 w-10 bg-orange-bright text-xs sm:text-discount text-white font-bold justify-center items-center">
+                <p>{{ product.discount }}</p>
+                <p>OFF</p>
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>      
+  </section>
+
+  <section id="contact-me">
+    <div class="sm:flex items-center text-center sm:h-40 sm:items-end py-4 font-mono text-base md:text-lg text-white-green bg-orange-bright md:px-10">
+      <div class="px-2 sm:w-1/4 md:px-10">
+        <div class="flex justify-center flex-shrink-0 sm:mb-8">
+          <img src="./resources/logo-cleanprof-putih.png" class="max-w-full h-16 sm:h-20"></img>
+        </div>
+      </div>
+      <div class="sm:w-1/4 mt-4 h-full">
+        <p class="font-univers my-2 text-xl font-bold">Menu</p>
+        <div class="font-omnes grid grid-cols-2">
+          <p><a href="index.html">Shop</a></p>
+          <p><a href="our-story.html">Our Story</a></p>
+          <p><a href="ingredients.html">Ingredients</a></p>
+          <p><a href="contact-us.html">About Us</a></p>
+        </div>
+      </div>
+      <div class="sm:w-1/4 mt-4 h-full">
+        <p class="font-univers my-2 text-xl font-bold">Contact</p>
+        <p class="font-omnes"><a href="index.html">cleanprofid@gmail.com</a></p>
+      </div>
+      <div class="sm:w-1/4 mt-4 h-full">
+        <p class="font-univers my-2 text-xl font-bold">Socials</p>
+        <div class="font-omnes md:text-lg">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cleanprof.id/" class="fa fa-instagram bg-green-grass p-1 mr-1 rounded-full" href="https://www.instagram.com/dnielstv/"></a>
+          <a class="fab fa-facebook-square bg-green-grass p-1 mr-1 rounded-full" href="https://www.facebook.com/CleanProf.ID"></a>
+          <a target="_blank" rel="noopener noreferrer" href="http://www.tokopedia.com/cleanprofid" class="bg-green-grass rounded-full px-2 py-1 mr-1">
+            tokopedia
+          </a>
+        </div>
+      </div>      
+    </div>
+    <!-- <div class="flex text-xs bg-white text-grey-700 h-10">
+      <div class="w-1/2 px-2 py-2 md:w-1/2 md:px-10">
+        <p> © Cleanprof 2020</p>
+      </div>
+      <div class="w-1/4 text-xs text-right px-2 py-2 md:w-1/4 md:px-10">
+        <p> </p>
+      </div> 
+      <div class="w-1/2 text-right px-2 py-2 md:w-1/4 md:px-10">
+        <p>Developed by SenjaWeb</p>
+      </div>
+    </div> -->
+  </section>
+
+  <div id="overlay" class="fixed h-0 opacity-0 left-0 right-0 bottom-0 z-10 bg-black"></div>
+
+  <script src="https://kit.fontawesome.com/af801e5531.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="js/product.js"></script>
+  <script src="js/productComponent.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
