@@ -73,7 +73,7 @@ html {
   font-family: 'Omnes Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Omnes Regular'), url('./fonts/omnes-regular-webfont.woff') format('woff');
+  src: local('Omnes Regular'), url('../resources/fonts/omnes-regular-webfont.woff') format('woff');
   font-display: swap;
 }
 
@@ -81,7 +81,7 @@ html {
   font-family: 'Univers LT Std 55 Roman';
   font-style: normal;
   font-weight: normal;
-  src: local('Univers LT Std 55 Roman'), url('./fonts/UniversLTStd.woff') format('woff');
+  src: local('Univers LT Std 55 Roman'), url('../resources/fonts/UniversLTStd.woff') format('woff');
   font-display: swap;
   }
 
