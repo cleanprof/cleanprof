@@ -4,8 +4,11 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   purge: {
-    enabled: true,
-    content: ['./build/*.html',],
+    // enabled: true,
+    content: [
+      './build/*.html',
+      './build/js/*.js',
+    ],
   },
   theme: {
     extend: {
@@ -19,6 +22,8 @@ module.exports = {
         '4vh' : '4vh',
         '5vh' : '5vh',
         '6vh' : '6vh',
+        '7vh' : '7vh',
+        '8vh' : '8vh',
         'discount': '.8rem',
         '7xl': '4.5rem',
         '8xl': '5rem',
@@ -32,6 +37,10 @@ module.exports = {
       },
       height: {
         'logo': '10%',
+        '1/2': '50%',
+        '3/5': '60%',
+        '3/4': '75%',
+        '4/5': '80%',
         '3/5screen': '60vh',
         '4/5screen': '80vh',
         '9/10screen': '90vh',
