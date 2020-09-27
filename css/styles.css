@@ -313,6 +313,10 @@ template {
  * Add the correct display in IE 10.
  */
 
+[hidden] {
+  display: none;
+}
+
 /**
  * Manually forked from SUIT CSS Base: https://github.com/suitcss/base
  * A thin layer on top of normalize.css that provides a starting point more
@@ -814,6 +818,10 @@ html {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -1244,6 +1252,10 @@ html {
   text-decoration: line-through;
 }
 
+.visible {
+  visibility: visible;
+}
+
 .w-3 {
   width: 0.75rem;
 }
@@ -1393,8 +1405,12 @@ html {
     height: 10rem;
   }
 
-  .sm\:h-full {
-    height: 100%;
+  .sm\:h-screen {
+    height: 100vh;
+  }
+
+  .sm\:h-3\/5 {
+    height: 60%;
   }
 
   .sm\:text-xl {
@@ -1421,13 +1437,13 @@ html {
     font-size: .8rem;
   }
 
-  .sm\:text-7xl {
-    font-size: 4.5rem;
-  }
-
   .sm\:mx-0 {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .sm\:mt-0 {
+    margin-top: 0;
   }
 
   .sm\:mb-8 {
@@ -1448,6 +1464,10 @@ html {
 
   .sm\:mt-32 {
     margin-top: 8rem;
+  }
+
+  .sm\:-mt-16 {
+    margin-top: -4rem;
   }
 
   .sm\:p-6 {
@@ -1483,20 +1503,28 @@ html {
     border-radius: 0;
   }
 
+  .md\:h-3\/4 {
+    height: 75%;
+  }
+
   .md\:text-lg {
     font-size: 1.125rem;
   }
 
-  .md\:text-xl {
-    font-size: 1.25rem;
+  .md\:text-5xl {
+    font-size: 3rem;
   }
 
-  .md\:text-2xl {
-    font-size: 1.5rem;
+  .md\:text-3vh {
+    font-size: 3vh;
   }
 
-  .md\:text-6xl {
-    font-size: 4rem;
+  .md\:text-4vh {
+    font-size: 4vh;
+  }
+
+  .md\:text-6vh {
+    font-size: 6vh;
   }
 
   .md\:mt-0 {
@@ -1569,8 +1597,8 @@ html {
     flex-grow: 1;
   }
 
-  .lg\:h-screen {
-    height: 100vh;
+  .lg\:h-full {
+    height: 100%;
   }
 
   .lg\:text-base {
@@ -1593,9 +1621,9 @@ html {
     font-size: 5rem;
   }
 
-  .lg\:mx-24 {
-    margin-left: 6rem;
-    margin-right: 6rem;
+  .lg\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
 
   .lg\:mt-0 {
@@ -1608,6 +1636,10 @@ html {
 
   .lg\:ml-24 {
     margin-left: 6rem;
+  }
+
+  .lg\:-mt-12 {
+    margin-top: -3rem;
   }
 
   .lg\:px-10 {
@@ -1635,4 +1667,8 @@ html {
 }
 
 @media (min-width: 1280px) {
+  .xl\:mx-24 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
 }
