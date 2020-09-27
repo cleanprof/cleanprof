@@ -692,10 +692,6 @@ html {
   }
 }
 
-.bg-fixed {
-  background-attachment: fixed;
-}
-
 .bg-black {
   --bg-opacity: 1;
   background-color: #000;
@@ -740,10 +736,6 @@ html {
 
 .hover\:bg-opacity-75:hover {
   --bg-opacity: 0.75;
-}
-
-.bg-bottom {
-  background-position: bottom;
 }
 
 .bg-center {
