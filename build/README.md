@@ -4,7 +4,7 @@
 This is the documentation for customizing
 For the main builder files head over to the master branch
 
-### How to update products (set prices/discounts)
+### How to update product(s) (set prices/discounts)
 Products' properties can be updated by modifying the js -> product.js file
 
 1. Head to *product.js* in the **/js/** folder.
@@ -36,7 +36,7 @@ Products' properties can be updated by modifying the js -> product.js file
 **IMPORTANT: Keep the comma (,) at the end of each line**
 
 ### How to add new products
-To add new products you need the image (.png) and the product link 
+To add new products you first need the **image (.png)** and the **product link** 
 
 1. Head to **/resources/product-pic** folder, paste the image (.png)
 2. Head to *product.js* in the **/js/** folder.
@@ -46,9 +46,9 @@ To add new products you need the image (.png) and the product link
     id : // unique id (add +1 after the last),
     image : // product image -> ./resources/product-pic/"filename".png
     name : // product name (Disinfectant, Sanitizer),
-    spec : // size of product (250 mL, 1L, 5L),
+    spec : // size of product ("250 mL", "1L", "5L"),
     price : // original price,
-    discount : // discount (calculated automatically in the page),
+    discount : // discount, calculated automatically in the page ("20%", "50%")
     link : // product link,
 },
 ```
