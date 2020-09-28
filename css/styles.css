@@ -95,7 +95,7 @@ html {
 }
 
 .navlink {
-  @apply block ml-4 mt-4 mr-4;
+  @apply block ml-4 mt-2 mr-4;
 }
 
 @screen lg {
