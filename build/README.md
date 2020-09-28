@@ -9,9 +9,9 @@ Products' properties can be updated by modifying the js -> product.js file
 
 1. Head to *product.js* in the **/js/** folder and edit.
 
-![head to js folder](https://github.com/cleanprof/cleanprof/blob/gh-pages/github/edit-product-1.png)
-![open product.js](https://github.com/cleanprof/cleanprof/blob/gh-pages/github/edit-product-2.png)
-![edit](https://github.com/cleanprof/cleanprof/blob/gh-pages/github/edit-product-3.png)
+<img align="left" width="100" height="100" src="https://github.com/cleanprof/cleanprof/blob/gh-pages/github/edit-product-1.png">
+<img align="left" width="100" height="100" src="https://github.com/cleanprof/cleanprof/blob/gh-pages/github/edit-product-2.png">
+<img align="left" width="100" height="100" src="https://github.com/cleanprof/cleanprof/blob/gh-pages/github/edit-product-3.png">
 
 2. Change properties that would like to be updated
 ```javascript
