@@ -85,11 +85,11 @@
       </div>
     </nav>
 
-    <div class="relative font-univers px-6 pt-2 pb-7/100 text-left text-white-green lg:tracking-widest lg:py-12 lg:mx-10 xl:mx-24">
-      <p class="text-5vh md:text-6vh lg:text-8xl font-bold">Special Offers</p>
-      <p class="text-5vh md:text-6vh lg:text-8xl font-bold">Up To 20%</p>
-      <p class="text-2vh md:text-3vh lg:text-2xl pt-1">Promo until 
-        <span class="font-bold">30 September 2020</span>
+    <div id="headline-home" class="relative font-univers px-6 pt-2 pb-7/100 text-left text-white-green lg:tracking-widest lg:py-12 lg:mx-10 xl:mx-24">
+      <p class="text-5vh md:text-6vh lg:text-8xl font-bold">{{ firstLine }}</p>
+      <p class="text-5vh md:text-6vh lg:text-8xl font-bold">{{ secondLine }}</p>
+      <p class="text-2vh md:text-3vh lg:text-2xl pt-1"> {{ detail[0] }} 
+        <span class="font-bold">{{ detail[1] }}</span>
       </p>
       <a href="#products" class="inline-block rounded-full py-2 px-4 leading-none bg-orange-bright border-white hover:border-transparent hover:text-orange-bright hover:bg-white mt-4 lg:mt-4">
         SHOP NOW!          
@@ -204,6 +204,7 @@
   <script src="https://kit.fontawesome.com/af801e5531.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="js/headline.js"></script>
   <script src="js/product.js"></script>
   <script src="js/productComponent.js"></script>
   <script src="js/index.js"></script>
