@@ -40,7 +40,7 @@ Products' properties can be updated by modifying the js -> product.js file
 }
 ```
 **IMPORTANT: Keep the comma (,) at the end of each line**
-
+  
 ### How to add new products
 To add new products you first need the **image (.png)** and the **product link** 
 
@@ -82,7 +82,23 @@ To add new products you first need the **image (.png)** and the **product link**
 
 
 ```
+  
 
+### How to update Headline Home (change discount/sentence)
+1. Head to *headline.js* in the **/js/** folder and edit.
 
+2. Edit data section
+```javascript
+var headline = new Vue({
+  el: '#headline-home',
 
-
+  data: {
+    firstLine: "Special Offers", 
+    secondLine: "Up To 20%", // update to 10% change to -> "Up To 30%"
+    detail: [ 
+      "Promo until",
+      "30 September 2020" // change date
+    ]
+  },
+})
+```
