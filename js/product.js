@@ -89,4 +89,4 @@ let productList = [
     discount : "20%",
     link : "https://www.tokopedia.com/cleanprofid/disinfectant-cleanprof-5l",
   },
-]  
+] 
