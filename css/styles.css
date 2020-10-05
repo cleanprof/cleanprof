@@ -98,6 +98,10 @@ html {
   @apply block ml-4 mt-2 mr-4;
 }
 
+[v-cloak] {
+  display: none;
+}
+
 @screen lg {
   .desktop-navbar {
     @apply flex static overflow-visible h-auto w-auto top-auto right-auto items-center pt-0 bg-transparent rounded-none;
