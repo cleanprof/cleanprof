@@ -19,7 +19,7 @@
             bergerak didalam bidang kesehatan dan perawatan sanitasi luar yang 
             diciptakan demi kenyamanan.">
   <link rel="icon" href="./resources/favicon.ico">
-  <link rel="preload" href="./resources/fonts/omnes-regular-webfont.woff" as="font" type="font/woff" crossorigin> 
+  <link href="./resources/fonts/omnes-regular-webfont.woff" as="font" type="font/woff" crossorigin> 
   <link rel="stylesheet" href="css/styles.css">
   <title>Cleanprof</title>
 </head>
@@ -68,18 +68,16 @@
             Contact Us
           </a>
         </div>
-        <div>
-          <a 
-            href="http://www.tokopedia.com/cleanprofid" 
-            class="inline-block text-sm px-2 py-1 leading-none border rounded-full bg-white-green hover:bg-opacity-75 font-semibold ml-4 mt-4 lg:mt-0"
-          >
-            <img src="resources/tokopedia-logo.png" class="w-20 h-6"></img>
+        <div class="lg:flex">
+          <a href="http://www.tokopedia.com/cleanprofid">
+            <button class="block text-sm px-2 py-1 leading-none border rounded-full bg-white-green hover:bg-opacity-75 font-semibold ml-4 mt-4 lg:mt-0">
+              <img src="resources/tokopedia-logo.png" class="h-6"></img>
+            </button>
           </a>
-          <a 
-            href="http://shopee.co.id/cleanprof.id" 
-            class="inline-block text-sm px-2 py-1 leading-none border rounded-full bg-white-green hover:bg-opacity-75 font-semibold ml-4 mt-4 lg:mt-0"
-          >
-            <img src="resources/shopee-logo.png" class="w-20 h-6"></img>
+          <a href="http://shopee.co.id/cleanprof.id">
+            <button class="block text-sm px-2 py-1 leading-none border rounded-full bg-white-green hover:bg-opacity-75 font-semibold ml-4 mt-4 lg:mt-0">
+              <img src="resources/shopee-logo.png" class="h-6"></img>
+            </button>
           </a>
         </div>
       </div>
@@ -95,9 +93,13 @@
       <a href="#products" class="inline-block rounded-full py-2 px-4 leading-none bg-orange-bright border-white hover:border-transparent hover:text-orange-bright hover:bg-white mt-4 lg:mt-4">
         SHOP NOW!          
       </a>
-      <p class="font-omnes text-3vh md:text-4vh py-1 sm:py-2">Find us on
-        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cleanprof.id/" class="fa fa-instagram mx-2"></a>
-        <a class="fab fa-facebook-square" href="https://www.facebook.com/CleanProf.ID"></a>
+      <p class="font-omnes text-2vh md:text-3vh py-2 sm:py-2">Find us on
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cleanprof.id/" 
+          class="fa fa-instagram mx-2">
+        </a>
+        <a href="https://www.facebook.com/CleanProf.ID"
+        class="fab fa-facebook-square">
+        </a>
       </p>
     </div>
   </section>
@@ -124,17 +126,17 @@
           <div class="relative max-w-auto mx-auto">
             <img class="w-full shadow-sm rounded-lg text-sm text-center lg:text-base md:text-left" v-bind:src="product.image" v-bind:alt="product.name">
             <div class="px-6 py-2 text-gray-700">
-              <div class="card-title font-medium mb-1"> {{ product.name }} </div>
-              <p class="card-content">
+              <div class="card-title font-medium mb-1" v-cloak> {{ product.name }} </div>
+              <p class="card-content" v-cloak>
                 {{ product.spec }}
               </p>
             </div>
             <div class="px-6 pt-1 pb-8" v-if="product.discount">
-              <p class="price line-through text-red-600 text-xs mr-2">IDR {{ priceCommaString(product.price) }}</p>
-              <p class="price text-green-600 mr-2">IDR {{ discountPrice(product) }}</p>
+              <p class="price line-through text-red-600 text-xs mr-2" v-cloak>IDR {{ priceCommaString(product.price) }}</p>
+              <p class="price text-green-600 mr-2" v-cloak>IDR {{ discountPrice(product) }}</p>
             </div>
             <div class="px-6 pt-1 pb-2" v-else>
-              <p class="price text-green-600 mr-2">IDR {{ priceCommaString(product.price) }}</p>
+              <p class="price text-green-600 mr-2" v-cloak>IDR {{ priceCommaString(product.price) }}</p>
             </div>
 
             <div v-if="product.discount" class="flex absolute top-0 right-0 ">
@@ -142,7 +144,7 @@
                 <span class="inline-flex rounded-lg h-10 w-10 bg-orange-500 opacity-75"></span>
               </span>
               <span class="relative inline-flex flex-wrap rounded-lg h-10 w-10 bg-orange-bright text-xs sm:text-discount text-white font-bold justify-center items-center">
-                <p>{{ product.discount }}</p>
+                <p v-cloak>{{ product.discount }}</p>
                 <p>OFF</p>
               </span>
             </div>
@@ -152,8 +154,8 @@
     </div>      
   </section>
 
-  <section id="contact-me">
-    <div class="sm:flex items-center text-center sm:h-40 sm:items-end py-4 font-mono text-base md:text-lg text-white-green bg-orange-bright md:px-10">
+  <section id="contact-me" class="text-white-green bg-gradient-to-r from-orange-bright to-orange-bright-2">
+    <div class="sm:flex items-center text-center sm:h-40 sm:items-end py-4 font-mono text-base md:text-lg md:px-10">
       <div class="px-2 sm:w-1/4 md:px-10">
         <div class="flex justify-center flex-shrink-0 sm:mb-8">
           <a href="index.html">
@@ -185,25 +187,18 @@
             tokopedia
           </a>
         </div>
-      </div>      
+      </div>   
     </div>
-    <!-- <div class="flex text-xs bg-white text-grey-700 h-10">
-      <div class="w-1/2 px-2 py-2 md:w-1/2 md:px-10">
+    <div class="flex text-white text-center text-grey-700 h-10"> 
+      <div class="w-full text-xs py-2">
         <p> © Cleanprof 2020</p>
       </div>
-      <div class="w-1/4 text-xs text-right px-2 py-2 md:w-1/4 md:px-10">
-        <p> </p>
-      </div> 
-      <div class="w-1/2 text-right px-2 py-2 md:w-1/4 md:px-10">
-        <p>Developed by SenjaWeb</p>
-      </div>
-    </div> -->
+    </div>
   </section>
 
   <div id="overlay" class="fixed h-0 opacity-0 left-0 right-0 bottom-0 z-10 bg-black"></div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
   <script src="js/headline.js"></script>
   <script src="js/product.js"></script>
   <script src="js/productComponent.js"></script>

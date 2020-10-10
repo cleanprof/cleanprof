@@ -51,6 +51,7 @@ module.exports = {
       },
       colors: {
         'orange-bright': '#FCB01C',
+        'orange-bright-2': '#fcb935',
         'green-grass': '#679966',
         'white-green': '#FFFEF1',
       },

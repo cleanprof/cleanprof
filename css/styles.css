@@ -91,7 +91,7 @@ html {
   
 
 .mobile-sidebar {
-  @apply fixed overflow-x-hidden h-screen w-0 top-0 right-0 pt-24 bg-orange-bright rounded-l-2rem z-20;
+  @apply fixed whitespace-no-wrap overflow-hidden h-screen w-0 top-0 right-0 pt-24 bg-orange-bright rounded-l-2rem z-20;
 }
 
 .navlink {

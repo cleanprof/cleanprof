@@ -655,7 +655,8 @@ html {
 
 .mobile-sidebar {
   position: fixed;
-  overflow-x: hidden;
+  white-space: nowrap;
+  overflow: hidden;
   height: 100vh;
   width: 0;
   top: 0;
@@ -736,6 +737,19 @@ html {
   --bg-opacity: 1;
   background-color: #fff;
   background-color: rgba(255, 255, 255, var(--bg-opacity));
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--gradient-color-stops));
+}
+
+.from-orange-bright {
+  --gradient-from-color: #FCB01C;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(252, 176, 28, 0));
+}
+
+.to-orange-bright-2 {
+  --gradient-to-color: #fcb935;
 }
 
 .hover\:bg-opacity-75:hover {
@@ -940,10 +954,6 @@ html {
 
 .text-2vh {
   font-size: 2vh;
-}
-
-.text-3vh {
-  font-size: 3vh;
 }
 
 .text-5vh {
@@ -1530,10 +1540,6 @@ html {
 
   .md\:text-3vh {
     font-size: 3vh;
-  }
-
-  .md\:text-4vh {
-    font-size: 4vh;
   }
 
   .md\:text-6vh {
