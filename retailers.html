@@ -18,7 +18,8 @@
   <section 
     class="static bg-center bg-cover min-h-4/5screen" 
     style="background-image: url(./resources/slide-show-compress/underwater.jpg); box-shadow:inset 0 0 0 2000px rgba(3, 3, 3, 0.2);">
-    <nav class="flex items-center justify-between flex-wrap bg-0 p-6">
+    
+    <nav class="flex items-center justify-between flex-wrap bg-0 p-4 sm:p-6">
       <a href="index.html" class="flex items-center flex-shrink-0 lg:px-10">
         <img src="./resources/logo-cleanprof.png" class="max-w-full h-16 z-10 sm:h-20"></img>
       </a>
@@ -29,7 +30,7 @@
       </div>
       <div id="navmenu" class="transition-width duration-500 mobile-sidebar flex-grow desktop-navbar">
         <div class="font-omnes text-lg text-white-green font-semibold lg:flex-grow">
-          <a id="navclose" href="#responsive-header" class="absolute top-0 right-0 p-10 lg:hidden">
+          <a id="navclose" class="absolute top-0 right-0 p-10 lg:hidden">
             X
           </a>
           <a href="index.html" class="navlink lg:inline-block lg:mt-0">
@@ -51,18 +52,16 @@
             Contact Us
           </a>
         </div>
-        <div>
-          <a 
-            href="http://www.tokopedia.com/cleanprofid" 
-            class="inline-block text-sm px-2 py-1 leading-none border rounded-full bg-white-green hover:bg-opacity-75 font-semibold ml-4 mt-4 lg:mt-0"
-          >
-            <img src="resources/tokopedia-logo.png" class="w-20 h-6"></img>
+        <div class="lg:flex">
+          <a href="http://www.tokopedia.com/cleanprofid">
+            <button class="block text-sm px-2 py-1 leading-none border rounded-full bg-white-green hover:bg-opacity-75 font-semibold ml-4 mt-4 lg:mt-0">
+              <img src="resources/tokopedia-logo.png" class="h-6"></img>
+            </button>
           </a>
-          <a 
-            href="http://shopee.co.id/cleanprof.id" 
-            class="inline-block text-sm px-2 py-1 leading-none border rounded-full bg-white-green hover:bg-opacity-75 font-semibold ml-4 mt-4 lg:mt-0"
-          >
-            <img src="resources/shopee-logo.png" class="w-20 h-6"></img>
+          <a href="http://shopee.co.id/cleanprof.id">
+            <button class="block text-sm px-2 py-1 leading-none border rounded-full bg-white-green hover:bg-opacity-75 font-semibold ml-4 mt-4 lg:mt-0">
+              <img src="resources/shopee-logo.png" class="h-6"></img>
+            </button>
           </a>
         </div>
       </div>
@@ -111,8 +110,8 @@
     </div>
   </section>
 
-  <section id="contact-me">
-    <div class="sm:flex items-center text-center sm:h-40 sm:items-end py-4 font-mono text-base md:text-lg text-white-green bg-orange-bright md:px-10">
+  <section id="contact-me" class="text-white-green bg-gradient-to-r from-orange-bright to-orange-bright-2">
+    <div class="sm:flex items-center text-center sm:h-40 sm:items-end py-4 font-mono text-base md:text-lg md:px-10">
       <div class="px-2 sm:w-1/4 md:px-10">
         <div class="flex justify-center flex-shrink-0 sm:mb-8">
           <a href="index.html">
@@ -144,19 +143,13 @@
             tokopedia
           </a>
         </div>
-      </div>      
+      </div>   
     </div>
-    <!-- <div class="flex text-xs bg-white text-grey-700 h-10">
-      <div class="w-1/2 px-2 py-2 md:w-1/2 md:px-10">
+    <div class="flex text-white text-center text-grey-700 h-10"> 
+      <div class="w-full text-xs py-2">
         <p> © Cleanprof 2020</p>
       </div>
-      <div class="w-1/4 text-xs text-right px-2 py-2 md:w-1/4 md:px-10">
-        <p> </p>
-      </div> 
-      <div class="w-1/2 text-right px-2 py-2 md:w-1/4 md:px-10">
-        <p>Developed by Admyre</p>
-      </div>
-    </div> -->
+    </div>
   </section>
 
   <div id="overlay" class="fixed h-0 opacity-0 left-0 right-0 bottom-0 z-10 bg-black"></div>
