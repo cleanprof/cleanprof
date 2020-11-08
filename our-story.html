@@ -18,17 +18,17 @@
     class="static bg-center bg-cover min-h-4/5screen" 
     style="background-image: url(./resources/slide-show-compress/aqua-1-cut.jpg); box-shadow:inset 0 0 0 2000px rgba(3, 3, 3, 0.1);">
     
-    <nav class="flex items-center justify-between flex-wrap bg-0 p-4 sm:p-6">
+    <nav id="navbar" class="fixed w-full z-30 flex items-center justify-between flex-wrap bg-0 p-4 sm:p-6">
       <a href="index.html" class="flex items-center flex-shrink-0 lg:px-10">
         <img src="./resources/logo-cleanprof.png" class="max-w-full h-16 z-10 sm:h-20"></img>
       </a>
       <div class="block z-10 lg:hidden">
-        <button id="navburger" class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white">
+        <button id="navburger" class="flex items-center px-3 py-2 border rounded">
           <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
         </button>
       </div>
       <div id="navmenu" class="transition-width duration-500 mobile-sidebar flex-grow desktop-navbar">
-        <div class="font-omnes text-lg text-white-green font-semibold lg:flex-grow">
+        <div class="font-omnes text-lg font-semibold lg:flex-grow">
           <a id="navclose" class="absolute top-0 right-0 p-10 lg:hidden">
             X
           </a>
@@ -53,12 +53,12 @@
         </div>
         <div class="lg:flex">
           <a href="http://www.tokopedia.com/cleanprofid">
-            <button class="block text-sm px-2 py-1 leading-none border rounded-full bg-white-green hover:bg-opacity-75 font-semibold ml-4 mt-4 lg:mt-0">
+            <button class="block text-sm px-2 py-1 leading-none border rounded-full bg-white hover:bg-opacity-75 font-semibold ml-4 mt-4 lg:mt-0">
               <img src="resources/tokopedia-logo.png" class="h-6"></img>
             </button>
           </a>
           <a href="http://shopee.co.id/cleanprof.id">
-            <button class="block text-sm px-2 py-1 leading-none border rounded-full bg-white-green hover:bg-opacity-75 font-semibold ml-4 mt-4 lg:mt-0">
+            <button class="block text-sm px-2 py-1 leading-none border rounded-full bg-white hover:bg-opacity-75 font-semibold ml-4 mt-4 lg:mt-0">
               <img src="resources/shopee-logo.png" class="h-6"></img>
             </button>
           </a>
@@ -67,7 +67,7 @@
     </nav>
   </section>
 
-  <section class="relative bg-white sm:py-16 -mt-8 rounded-2rem md:mt-0 md:rounded-none">
+  <section id="body" class="relative bg-white sm:py-16 -mt-8 rounded-2rem md:mt-0 md:rounded-none">
     <div class="absolute flex justify-center inset-x-0 top-0 -mt-10 sm:-mt-16 lg:-mt-12">
       <div class="flex items-center w-full h-auto">
         <img 
@@ -138,7 +138,9 @@
   <div id="overlay" class="fixed h-0 opacity-0 left-0 right-0 bottom-0 z-10 bg-black"></div>
 
   <script src="https://kit.fontawesome.com/af801e5531.js" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
   <script src="js/index.js"></script>
 </body>
 </html>
