@@ -67,7 +67,7 @@ let productList = [
     image : "./resources/product-pic/dis-250-aerosol-nu-low pix.png",
     name : "Disinfectant Aerosol",
     spec : "250 mL",
-    price : "50000",
+    price : "44000",
     discount : "20%",
     link : "https://www.tokopedia.com/cleanprofid/disinfectant-aerosol-cleanprof-250ml",
   },

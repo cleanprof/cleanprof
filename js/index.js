@@ -8,11 +8,11 @@ gsap.fromTo(
       trigger: "#body",
       start: "top 10%",
       end: "top top",
-      scrub: 0.5
+      toggleActions: "play none none reverse"
     },
     background: "#FFFFFF",
     color: "#4a5568",
-    boxShadow: "0px 0.5px 4px 1px rgba(138,138,138,0.2)"
+    boxShadow: "0px 0.5px 4px 1px rgba(138,138,138,0.2)",
   }
 )
 
