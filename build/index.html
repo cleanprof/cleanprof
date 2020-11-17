@@ -24,24 +24,42 @@
   <title>Cleanprof</title>
 </head>
 <body>
-  <section id="hero" class="relative min-h-4/5screen w-full sm:h-screen">
+  <section id="hero" class="relative min-h-4/5screen w-screen sm:h-screen">
     <div class="absolute h-4/5screen sm:h-screen w-full shadow z-0">
       <div id="slides" class="relative h-full w-full">
-        <video autoplay muted loop playsinline class="slide absolute h-full w-full object-cover object-top" >
-          <source src="./resources/video/Cleanprof-mute-360.mp4" type="video/mp4">
+        <video
+          autoplay muted loop playsinline
+          class="slide absolute h-full w-full object-cover object-top"
+        >
+          <source 
+            src="./resources/video/Cleanprof-mute-360.mp4"
+            type="video/mp4"
+          >
         </video>
-        
         <div class="absolute h-full w-full bg-black opacity-25 z-20"></div>
       </div>
     </div>
 
-    <nav id="navbar" class="fixed w-full z-30 flex items-center justify-between flex-wrap bg-0 p-4 sm:p-6">
+    <nav id="navbar" class="fixed w-screen z-30 flex items-center justify-between flex-wrap bg-0 px-4 py-4 sm:px-6">
       <a href="index.html" class="flex items-center flex-shrink-0 lg:px-10">
-        <img src="./resources/logo-cleanprof.png" class="max-w-full h-16 z-10 sm:h-20"></img>
+        <img
+          src="./resources/logo-cleanprof.png"
+          class="max-w-full h-16 z-10 sm:h-20"
+        >
+        </img>
       </a>
       <div class="block z-10 lg:hidden">
         <button id="navburger" class="flex items-center px-3 py-2 border rounded">
-          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          <svg
+            class="fill-current h-3 w-3"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Menu
+            </title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+          </svg>
         </button>
       </div>
       <div id="navmenu" class="transition-width duration-500 mobile-sidebar flex-grow desktop-navbar">
@@ -71,12 +89,18 @@
         <div class="lg:flex">
           <a href="http://www.tokopedia.com/cleanprofid">
             <button class="block text-sm px-2 py-1 leading-none border rounded-full bg-white hover:bg-opacity-75 font-semibold ml-4 mt-4 lg:mt-0">
-              <img src="resources/tokopedia-logo.png" class="h-6"></img>
+              <img
+                src="resources/tokopedia-logo.png"
+                class="h-6">
+              </img>
             </button>
           </a>
           <a href="http://shopee.co.id/cleanprof.id">
             <button class="block text-sm px-2 py-1 leading-none border rounded-full bg-white hover:bg-opacity-75 font-semibold ml-4 mt-4 lg:mt-0">
-              <img src="resources/shopee-logo.png" class="h-6"></img>
+              <img
+                src="resources/shopee-logo.png"
+                class="h-6">
+              </img>
             </button>
           </a>
         </div>
@@ -94,17 +118,23 @@
         SHOP NOW!          
       </a>
       <p class="font-omnes text-2vh md:text-3vh py-2 sm:py-2">Find us on
-        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cleanprof.id/" 
+        <a
+          target="_blank" rel="noopener noreferrer"
+          href="https://www.instagram.com/cleanprof.id/" 
           class="fa fa-instagram mx-2">
         </a>
-        <a href="https://www.facebook.com/CleanProf.ID"
-        class="fab fa-facebook-square">
+        <a 
+          href="https://www.facebook.com/CleanProf.ID"
+          class="fab fa-facebook-square">
         </a>
       </p>
     </div>
   </section>
 
-  <section id="featured-products" class="relative bg-white py-24 -mt-10 sm:mt-0 rounded-2rem md:mt-0 md:rounded-none">
+  <section
+    id="featured-products"
+    class="relative bg-white py-24 -mt-10 sm:mt-0 rounded-2rem md:mt-0 md:rounded-none"
+  >
     <div class="absolute flex justify-center inset-x-0 top-0 -mt-10 sm:-mt-16 lg:-mt-12">
       <div class="flex items-center w-full h-auto">
         <img 
@@ -116,36 +146,57 @@
       </div>
     </div>
 
-    <p class="font-bold font-univers text-center text-2xl sm:text-left sm:text-4xl sm:ml-12 px-4 sm:mt-32 mb-6 sm:mb-20">
+    <p class="font-bold font-univers text-center text-2xl sm:text-left sm:text-4xl sm:ml-24 px-4 sm:mt-32 mb-6 sm:mb-10">
       Featured Products
     </p>
 
     <div id="products">
-      <div class="font-omnes h-auto grid grid-cols-2 md:gap-2 md:px-2 lg:px-16 md:grid-cols-5">
-        <a target="_blank" rel="noopener noreferrer" v-bind:href="product.link" class="card-main p-2 md:px-4 md:mb-6" v-for="product in products" :key="product.id">
+      <div class="font-omnes h-auto grid grid-cols-2 md:gap-2 md:px-2 lg:px-24 md:grid-cols-5">
+        <a
+          target="_blank" rel="noopener noreferrer"
+          v-bind:href="product.link"
+          class="card-main p-2 md:px-4 md:mb-6"
+          v-for="product in products"
+          :key="product.id"
+        >
           <div class="relative max-w-auto mx-auto">
-            <img class="w-full shadow-sm rounded-lg text-sm text-center lg:text-base md:text-left" v-bind:src="product.image" v-bind:alt="product.name">
+            <img
+              class="w-full shadow-sm rounded-lg text-sm text-center lg:text-base md:text-left image-transition hover:-translate-y-2"
+              v-bind:src="product.image"
+              v-bind:alt="product.name"
+            >
             <div class="px-6 py-2 text-gray-700">
-              <div class="card-title font-medium mb-1" v-cloak> {{ product.name }} </div>
+              <div class="card-title font-medium mb-1" v-cloak>
+                {{ product.name }}
+              </div>
               <p class="card-content" v-cloak>
                 {{ product.spec }}
               </p>
             </div>
             <div class="px-6 pt-1 pb-8" v-if="product.discount">
-              <p class="price line-through text-red-600 text-xs mr-2" v-cloak>IDR {{ priceCommaString(product.price) }}</p>
-              <p class="price text-green-600 mr-2" v-cloak>IDR {{ discountPrice(product) }}</p>
+              <p class="price line-through text-red-600 text-xs mr-2" v-cloak>
+                IDR {{ priceCommaString(product.price) }}
+              </p>
+              <p class="price text-green-600 mr-2" v-cloak>
+                IDR {{ discountPrice(product) }}
+              </p>
             </div>
             <div class="px-6 pt-1 pb-2" v-else>
-              <p class="price text-green-600 mr-2" v-cloak>IDR {{ priceCommaString(product.price) }}</p>
+              <p class="price text-green-600 mr-2" v-cloak>
+                IDR {{ priceCommaString(product.price) }}
+              </p>
             </div>
-
             <div v-if="product.discount" class="flex absolute top-0 right-0 ">
               <span class="absolute inline-flex animate-ping">
                 <span class="inline-flex rounded-lg h-10 w-10 bg-orange-500 opacity-75"></span>
               </span>
               <span class="relative inline-flex flex-wrap rounded-lg h-10 w-10 bg-orange-bright text-xs sm:text-discount text-white font-bold justify-center items-center">
-                <p v-cloak>{{ product.discount }}</p>
-                <p>OFF</p>
+                <p v-cloak>
+                  {{ product.discount }}
+                </p>
+                <p>
+                  OFF
+                </p>
               </span>
             </div>
           </div>
@@ -164,14 +215,28 @@
         </div>
       </div>
       <div class="sm:w-1/4 mt-4 h-full">
-        <p class="font-univers my-2 text-xl font-bold">Menu</p>
+        <p class="font-univers my-2 text-xl font-bold">
+          Menu
+        </p>
         <div class="font-omnes grid grid-cols-3">
-          <p><a href="index.html">Shop</a></p>
-          <p><a href="our-story.html">Our Story</a></p>
-          <p><a href="ingredients.html">Ingredients</a></p>
-          <p><a href="catalog.html">Catalog</a></p>
-          <p><a href="retailers.html">Retailers</a></p>
-          <p><a href="contact-us.html">Contact Us</a></p>
+          <p>
+            <a href="index.html">Shop</a>
+          </p>
+          <p>
+            <a href="our-story.html">Our Story</a>
+          </p>
+          <p>
+            <a href="ingredients.html">Ingredients</a>
+          </p>
+          <p>
+            <a href="catalog.html">Catalog</a>
+          </p>
+          <p>
+            <a href="retailers.html">Retailers</a>
+          </p>
+          <p>
+            <a href="contact-us.html">Contact Us</a>
+          </p>
         </div>
       </div>
       <div class="sm:w-1/4 mt-4 h-full">

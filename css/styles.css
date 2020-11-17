@@ -88,10 +88,13 @@ html {
 .scroll-smooth {
     scroll-behavior: smooth;
 }
-  
+
+.image-transition {
+  @apply transition-transform duration-300 transform
+}
 
 .mobile-sidebar {
-  @apply fixed whitespace-no-wrap overflow-hidden h-screen w-0 top-0 right-0 pt-24 bg-orange-bright rounded-l-2rem z-20;
+  @apply fixed whitespace-no-wrap overflow-hidden h-screen w-0 top-0 right-0 pt-24 bg-orange-bright text-white rounded-l-2rem z-20;
 }
 
 .navlink {
@@ -104,7 +107,7 @@ html {
 
 @screen lg {
   .desktop-navbar {
-    @apply flex static overflow-visible h-auto w-auto top-auto right-auto items-center pt-0 bg-transparent rounded-none;
+    @apply flex static overflow-visible h-auto w-auto top-auto right-auto items-center pt-0 bg-transparent text-current rounded-none;
   }
 }
 
