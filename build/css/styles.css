@@ -1087,10 +1087,6 @@ html {
   padding: 0.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .p-10 {
   padding: 2.5rem;
 }
@@ -1274,10 +1270,6 @@ html {
 
 .w-full {
   width: 100%;
-}
-
-.w-screen {
-  width: 100vw;
 }
 
 .z-0 {
@@ -1492,10 +1484,6 @@ html {
     margin-top: -4rem;
   }
 
-  .sm\:p-6 {
-    padding: 1.5rem;
-  }
-
   .sm\:py-2 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -1642,11 +1630,6 @@ html {
     font-size: 5rem;
   }
 
-  .lg\:mx-10 {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-  }
-
   .lg\:mt-0 {
     margin-top: 0;
   }
@@ -1666,6 +1649,11 @@ html {
   .lg\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .lg\:px-24 {
@@ -1696,8 +1684,8 @@ html {
 }
 
 @media (min-width: 1280px) {
-  .xl\:mx-24 {
-    margin-left: 6rem;
-    margin-right: 6rem;
+  .xl\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 }
