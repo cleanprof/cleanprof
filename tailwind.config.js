@@ -26,7 +26,7 @@ module.exports = {
         '6vh' : '6vh',
         '7vh' : '7vh',
         '8vh' : '8vh',
-        'discount': '.8rem',
+        'discount': '.7rem',
         '7xl': '4.5rem',
         '8xl': '5rem',
       },
