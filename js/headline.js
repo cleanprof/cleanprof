@@ -6,7 +6,7 @@ var headline = new Vue({
     secondLine: "Up To 20%",
     detail: [
       "Special Promo",
-      "Bundle November 2020" 
+      "Free Pouch for Every Bundle Purchase" 
     ]
   },
 })
