@@ -89,4 +89,31 @@ let productList = [
     discount : "20%",
     link : "https://www.tokopedia.com/cleanprofid/disinfectant-cleanprof-5l",
   },
+  {
+    id : 11,
+    image : "./resources/product-pic/Cleanprof%20bundle%20launch%20(3).png",
+    name : "Bundle POUCH",
+    spec : "Sunkist Bundle",
+    price : "45000",
+    discount : "",
+    link : "https://www.tokopedia.com/cleanprofid/sunkist-bundle-2-60-ml-handsanitizer-1-250-ml-disinfektan-aerosol",
+  },
+  {
+    id : 12,
+    image : "./resources/product-pic/Cleanprof%20bundle%20launch%20(4).png",
+    name : "Bundle POUCH",
+    spec : "Mandarin Bundle",
+    price : "70000",
+    discount : "",
+    link : "https://www.tokopedia.com/cleanprofid/mandarin-bundle-1-100-ml-handsanitizer-1-1l-handsanitizer",
+  },
+  {
+    id : 13,
+    image : "./resources/product-pic/Cleanprof%20bundle%20launch%20(10).png",
+    name : "Bundle POUCH",
+    spec : "Tangerine Bundle",
+    price : "75000",
+    discount : "",
+    link : "https://www.tokopedia.com/cleanprofid/tangerine-bundle-1-250-ml-disinfectant-1-1l-disinfectant",
+  }
 ] 
