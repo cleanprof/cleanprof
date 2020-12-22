@@ -14,7 +14,7 @@ Products' properties can be updated by modifying the js -> product.js file
 <img align="left" width="1000" height="140" src="https://github.com/cleanprof/cleanprof/blob/gh-pages/github/edit-product-3.png">
 
 
-2. Change properties to be updated
+2. Change properties on the file to be updated
 ```javascript
 // Ex: Changing Discount (or any other property)
 {
