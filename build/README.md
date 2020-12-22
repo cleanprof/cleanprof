@@ -14,7 +14,7 @@ Products' properties can be updated by modifying the js -> product.js file
 <img align="left" width="1000" height="140" src="https://github.com/cleanprof/cleanprof/blob/gh-pages/github/edit-product-3.png">
 
 
-2. Change properties that would like to be updated
+2. Change properties to be updated
 ```javascript
 // Ex: Changing Discount (or any other property)
 {
@@ -25,7 +25,7 @@ Products' properties can be updated by modifying the js -> product.js file
     price : "17000",
     discount : "20%", // previous discount
     link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-60ml",
-}
+},
 ```
 ```javascript
 // Discount prices are automatically calculated
@@ -37,9 +37,9 @@ Products' properties can be updated by modifying the js -> product.js file
     price : "17000", 
     discount : "50%", // new discount
     link : "https://www.tokopedia.com/cleanprofid/handsanitizer-cleanprof-60ml",
-}
+},
 ```
-**IMPORTANT: Keep the comma (,) at the end of each line**
+**IMPORTANT: Keep the comma (,) at the end of each line and curly braces (},)**
   
 ### How to add new products
 To add new products you first need the **image (.png)** and the **product link** 
